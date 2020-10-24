@@ -3,8 +3,8 @@ const serverless = require("serverless-http");
 const router = express.Router();
 const app = express();
 const cors =require("cors");
-app.use(cors())
-//const origin = process.env.NODE_ENV !== "production" ? "http://localhost:3000" : "https://cciapp.shareit.dev/"
+app.use(cors({origin}))
+const origin = process.env.NODE_ENV !== "production" ? "http://localhost:3000" : "https://cciapp.shareit.dev/"
 
 router.get("/global", (req, res) => {
   res.json({
