@@ -925,21 +925,18 @@ const users =  [
         "name" : "Nuno Santos",
         "email" : "nuno.s@sahreit.dev",
         "password" : "Pass13245",
-        "cardNumber" : "12345",
         "language" : "EN"
     },
     {
         "name" : "Pedro Alfaite",
         "email" : "pedro.a@sahreit.dev",
         "password" : "Pass13245",
-        "cardNumber" : "12345",
         "language" : "EN"
     },
     {
         "name" : "Guilherme ",
         "email" : "guilherme@sahreit.dev",
         "password" : "Pass13245",
-        "cardNumber" : "12345",
         "language" : "EN"
     },
     
@@ -948,6 +945,7 @@ const users =  [
 router.post("/login", (req, res) => {
     let result = users.find(user => user.email == this.request.body.email)
     if (result) {
+        res.json({result})
         if(result.password == req.body.password) {
             res.status(200).send({
                 message: "success login!"
