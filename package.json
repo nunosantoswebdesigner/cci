@@ -9,6 +9,12 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1"
   },
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@now/node-server"
+    }
+  ],
   "scripts": {
     "start": "nodemon index.js"
   },
