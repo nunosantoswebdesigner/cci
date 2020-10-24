@@ -1,14 +1,10 @@
 const express = require("express");
 const serverless = require("serverless-http");
-const cors =require("cors");
-
-const origin = process.env.NODE_ENV !== "production"
- ? "http://localhost:3000" : "https://cciapp.shareit.dev/"
-
-const app = express();
-app.use(cors({origin}))
-
 const router = express.Router();
+const app = express();
+const cors =require("cors");
+app.use(cors())
+//const origin = process.env.NODE_ENV !== "production" ? "http://localhost:3000" : "https://cciapp.shareit.dev/"
 
 router.get("/global", (req, res) => {
   res.json({
@@ -58,8 +54,6 @@ router.get("/global", (req, res) => {
     ]
   });
 });
-
-
 router.get("/signup", (req, res) => {
   res.json({
     "clubsList" : [
@@ -916,7 +910,6 @@ router.get("/signup", (req, res) => {
     ]
 });
 });
-
 router.get("/users", (req, res) => {
   res.json({
     "isUser" : true,
@@ -927,6 +920,5 @@ router.get("/users", (req, res) => {
 });
 
 app.use(`/.netlify/functions/api`, router);
-
 module.exports = app;
 module.exports.handler = serverless(app);
