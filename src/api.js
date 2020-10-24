@@ -911,12 +911,58 @@ router.get("/signup", (req, res) => {
 });
 router.get("/users", (req, res) => {
   res.json({
-    "isUser" : true,
     "name" : "Nuno Santos",
     "email" : "nuno.s@sahreit.dev",
-    "cardNumber" : "123456"
+    "password" : "Pass13245",
+    "cardNumber" : "12345",
+    "language" : "EN"
   });
 });
+
+// Dummy Users
+const users =  [
+    {
+        "name" : "Nuno Santos",
+        "email" : "nuno.s@sahreit.dev",
+        "password" : "Pass13245",
+        "cardNumber" : "12345",
+        "language" : "EN"
+    },
+    {
+        "name" : "Pedro Alfaite",
+        "email" : "pedro.a@sahreit.dev",
+        "password" : "Pass13245",
+        "cardNumber" : "12345",
+        "language" : "EN"
+    },
+    {
+        "name" : "Guilherme ",
+        "email" : "guilherme@sahreit.dev",
+        "password" : "Pass13245",
+        "cardNumber" : "12345",
+        "language" : "EN"
+    },
+    
+]
+
+router.post("/login", (req, res) => {
+    let result = users.find(user => user.email == this.request.body.email)
+    if (result) {
+        if(result.password == req.body.password) {
+            res.status(200).send({
+                message: "success login!"
+            })
+        } else {
+            res.status(200).send({
+                message: "password incorrect!"
+            })
+        }
+    } else {
+        res.status(200).send({
+            message: "user not found!"
+        })
+    }
+})
 
 app.use(`/.netlify/functions/api`, router);
 module.exports = app;
