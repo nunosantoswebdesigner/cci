@@ -1,24 +1,19 @@
 {
-  "name": "server",
+  "name": "netlify-express",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1"
+    "express": "^4.16.4",
+    "netlify-lambda": "^1.4.3",
+    "serverless-http": "^1.9.1"
   },
-  "builds": [
-    {
-      "src": "./index.js",
-      "use": "@now/node-server"
-    }
-  ],
+  "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
