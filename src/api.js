@@ -1,9 +1,17 @@
 const express = require("express");
+const morgan = require("morgan");
 const serverless = require("serverless-http");
 const router = express.Router();
 const app = express();
 const cors =require("cors");
 app.use(cors())
+app.use(morgan('dev'))
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
+    next();
+});
 
 router.get("/global", (req, res) => {
   res.json({
@@ -909,54 +917,31 @@ router.get("/signup", (req, res) => {
     ]
 });
 });
-router.get("/users", (req, res) => {
-  res.json({
-    "name" : "Nuno Santos",
-    "email" : "nuno.s@sahreit.dev",
-    "password" : "Pass13245",
-    "cardNumber" : "12345",
-    "language" : "EN"
-  });
-});
+
 
 // Dummy Users
-const users =  [
-    {
-        "name" : "Nuno Santos",
-        "email" : "nuno.s@sahreit.dev",
-        "password" : "Pass13245",
-        "language" : "EN"
-    },
-    {
-        "name" : "Pedro Alfaite",
-        "email" : "pedro.a@sahreit.dev",
-        "password" : "Pass13245",
-        "language" : "EN"
-    },
-    {
-        "name" : "Guilherme ",
-        "email" : "guilherme@sahreit.dev",
-        "password" : "Pass13245",
-        "language" : "EN"
-    },
-    
-]
 
-router.post("/login", (req, res) => {
-    let result = users.find(user => user.email == this.request.body.email)
+router.post("/login", function(req, res) {
+    const users =  [
+        {
+            "email" : "nuno.s@shareit.dev",
+            "password" : "Pass12345",
+        }
+    ]
+    console.log(req.body.email)
+    let result = users.find(user => user.email == req.body.email)
     if (result) {
-        res.json({result})
         if(result.password == req.body.password) {
-            res.status(200).send({
+            res.send({
                 message: "success login!"
             })
         } else {
-            res.status(200).send({
+            res.send({
                 message: "password incorrect!"
             })
         }
     } else {
-        res.status(200).send({
+        res.send({
             message: "user not found!"
         })
     }
