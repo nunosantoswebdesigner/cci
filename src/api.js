@@ -922,29 +922,16 @@ router.get("/signup", (req, res) => {
 // Dummy Users
 
 router.post("/login", function(req, res) {
-    const users =  [
+    const user =  [
         {
+            "isLogin": true, 
             "email" : "nuno.s@shareit.dev",
             "password" : "Pass12345",
+            "cardNumber" : "123456",
+            "language" : "399"
         }
     ]
-    console.log(req.body.email)
-    let result = users.find(user => user.email == req.body.email)
-    if (result) {
-        if(result.password == req.body.password) {
-            res.send({
-                message: "success login!"
-            })
-        } else {
-            res.send({
-                message: "password incorrect!"
-            })
-        }
-    } else {
-        res.send({
-            message: "user not found!"
-        })
-    }
+     res.status(200).send({user})
 })
 
 app.use(`/.netlify/functions/api`, router);
