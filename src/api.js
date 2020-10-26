@@ -917,10 +917,6 @@ router.get("/signup", (req, res) => {
     ]
 });
 });
-
-
-// Dummy Users
-
 router.post("/login", function(req, res) {
     const user =  [
         {
@@ -933,7 +929,11 @@ router.post("/login", function(req, res) {
     ]
      res.status(200).send({user})
 })
-
+router.post("/forgetpass", function(req, res) {
+    res.status(200).send({
+        message: "email send with success"
+    })
+})
 router.post("/account", function(req, res) {
     res.status(200).send({
         message: "user created with success"
