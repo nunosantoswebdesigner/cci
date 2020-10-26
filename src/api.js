@@ -934,6 +934,12 @@ router.post("/login", function(req, res) {
      res.status(200).send({user})
 })
 
+router.post("/account", function(req, res) {
+    res.status(200).send({
+        message: "user created with success"
+    })
+})
+
 app.use(`/.netlify/functions/api`, router);
 module.exports = app;
 module.exports.handler = serverless(app);
