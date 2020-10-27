@@ -123,7 +123,7 @@ router.get("/global", (req, res) => {
             "Please_confirm_your_password" : "Please confirm your password!",
             "Please_write_your_name" : "Please write your name!",
             "Please_write_your_password" : "Please write your password!",
-            "Please_write_valid_email!" : "Please write a Valid Email!",
+            "Please_write_valid_email" : "Please write a Valid Email!",
             "Please_write_security_question" : "Please write a security question!",
             "Please_write_security_answer" : "Please write a security answer!",
             "Please_write_your_card_number" : "Please write your Card Number!",
