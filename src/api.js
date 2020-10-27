@@ -74,7 +74,7 @@ router.get("/global", (req, res) => {
             "Email" : "Email",
             "Send_email" : "Send Email",
             "Dont_have_an_account" : "Don´t have an account?",
-           
+            "Register_now" : "Register now"
         },
         "Map" : {
             "Search" : "Search",
