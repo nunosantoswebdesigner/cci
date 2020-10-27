@@ -1045,11 +1045,13 @@ router.post("/login", function(req, res) {
 })
 
 
-router.post("/forgotpass", (req, res) => {
+router.post("/forgotpass", async (req, res) => {
    
     console.log(users)
+
+    let x = await req.body.email
    
-    let result  = users.find(user => user.email == req.body.email)
+    let result  = await users.find(user => user.email == x)
     console.log(result)
 
     if (result) {
