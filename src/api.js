@@ -1045,18 +1045,20 @@ router.post("/login", function(req, res) {
 })
 
 
-router.post("/forgotpass", async (req, res) => {
+router.post("/forgotpass", (req, res, next) => {
    
     console.log(users)
 
-    let x = await req.body.email
-   
-    let result  = await users.find(user => user.email == x)
+    let result  = await users.find(user => user.email == req.body.email)
     console.log(result)
 
     if (result) {
         res.status(200).send({
             message: "email send with success"
+        })
+    } else {
+        res.status(400).send({
+            message: "email not found"
         })
     }
    
