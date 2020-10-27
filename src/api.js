@@ -66,6 +66,7 @@ router.get("/global", (req, res) => {
             "Language" : "Language",
             "Receive_news_from_cci" : "Receive News From CCI",
             "Register" : "Register",
+            "Select" : "Select",
             "Back" : "Back",
         },
         "ForgotPassword" : {
