@@ -27,6 +27,10 @@ router.get("/global", (req, res) => {
             "Please_rotate_device" : "Please rotate your device to portrait",
             "App_support_portrait" : "This app support portrait mode only",
         },
+        "NotFoundScreen" : {
+            "Page_not_fond" : "Page not fond",
+            "Go_back" : "Go Back",
+        },
         "Login" : {
             "Welcome_back": "Welcome back!",
             "Email" : "Email",
