@@ -31,6 +31,14 @@ router.get("/global", (req, res) => {
             "Page_not_fond" : "Page not fond",
             "Go_back" : "Go Back",
         },
+        "SideBarScreen" : {
+            "Recovery_password" : "Recovery Password",
+            "Check_your_email" : "To recover your password please check your email",
+            "Invalid_Password" : "Invalid Password",
+            "Create_an_Account" : "Please create a new account",
+            "Account_Created_with_Sucusse" : "Account Created with Sucusse",
+            "Created_Account_fail" : "Invalid Fields, please try again"
+        },
         "Login" : {
             "Welcome_back": "Welcome back!",
             "Email" : "Email",
@@ -64,7 +72,7 @@ router.get("/global", (req, res) => {
             "Email" : "Email",
             "Send_email" : "Send Email",
             "Dont_have_an_account" : "Don´t have an account?",
-            "Register_now" : "Register now",
+           
         },
         "Map" : {
             "Search" : "Search",
@@ -106,7 +114,23 @@ router.get("/global", (req, res) => {
             "How to get my CCI?" : "How to get my CCI?",
             "Address" : "Address",
         },
-        
+        "ErrorMessages" : {
+            "Required_filed" : "Required Filed!",
+            "Minimum_6_digits" : "Minimum 6 digits!",
+            "Password_do_not_match" : "Password do not match!",
+            "Please_confirm_your_password" : "Please confirm your password!",
+            "Please_write_your_name" : "Please write your name!",
+            "Please_write_your_password" : "Please write your password!",
+            "Please_write_valid_email!" : "Please write a Valid Email!",
+            "Please_write_security_question" : "Please write a security question!",
+            "Please_write_security_answer" : "Please write a security answer!",
+            "Please_write_your_card_number" : "Please write your Card Number!",
+            "Please_write_a_valid_card_number" : "Please write your Card Number!",
+            "Please_select_your_language" : "Please select your Language!",
+            "Please_select_a_date" : "Please select a Date!",
+            "Please_select_a_valid_date" : "Please select a valid Date!",
+            "Please_select_your_country" : "Please select your Country!"
+        },
         "campsitesTotal" : 3197,
         "countriesTotal" : 40,
         "currentLanguage" : "EN",
