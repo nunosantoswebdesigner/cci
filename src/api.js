@@ -13,6 +13,14 @@ app.use(function(req, res, next) {
     next();
 });
 
+
+var users = [
+    {
+        email: "nuno.s@shareit.dev", password: "password"
+    }
+]
+
+
 router.get("/global", (req, res) => {
   res.json({
     "Translates" : {
@@ -133,19 +141,7 @@ router.get("/global", (req, res) => {
             "Please_select_a_date" : "Please select a Date!",
             "Please_select_a_valid_date" : "Please select a valid Date!",
             "Please_select_your_country" : "Please select your Country!"
-        },
-        "campsitesTotal" : 3197,
-        "countriesTotal" : 40,
-        "currentLanguage" : "EN",
-        "loginText" : "Welcome Back!",
-        "splashTextOne" : "Get discounts in",
-        "splashTextTwo" : "campsites in",
-        "splashTextThree" : "countries",
-        "forgotPassWordText" : "Forgot password?",
-        "haveAccountText": "Don´t have an account?",
-        "signUpText": "Sign Up",
-        "reciveNewsText": "Receive news from cci",
-        "registerNowText": "Register Now"
+        }
     },
     "languagesList" : [
         {
@@ -1047,10 +1043,21 @@ router.post("/login", function(req, res) {
     ]
      res.status(200).send({user})
 })
-router.post("/forgetpass", function(req, res) {
-    res.status(200).send({
-        message: "email send with success"
-    })
+
+
+router.post("/forgotpass", (req, res) => {
+   
+    console.log(users)
+   
+    let result  = users.find(user => user.email == req.body.email)
+    console.log(result)
+
+    if (result) {
+        res.status(200).send({
+            message: "email send with success"
+        })
+    }
+   
 })
 router.post("/account", function(req, res) {
     res.status(200).send({

@@ -21917,21 +21917,131 @@ app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
   next();
 });
+var users = [{
+  email: "nuno.s@shareit.dev",
+  password: "password"
+}];
 router.get("/global", (req, res) => {
   res.json({
     "Translates": {
-      "campsitesTotal": 3197,
-      "countriesTotal": 40,
-      "currentLanguage": "EN",
-      "loginText": "Welcome Back!",
-      "splashTextOne": "Get discounts in",
-      "splashTextTwo": "campsites in",
-      "splashTextThree": "countries",
-      "forgotPassWordText": "Forgot password?",
-      "haveAccountText": "Don´t have an account?",
-      "signUpText": "Sign Up",
-      "reciveNewsText": "Receive news from cci",
-      "registerNowText": "Register Now"
+      "OnboardScreen": {
+        "CampsitesTotal": 3197,
+        "CountriesTotal": 40,
+        "Get_discounts_in": "Get discounts in",
+        "Campsites_in": "campsites in",
+        "Countries": "countries"
+      },
+      "SwipeScreen": {
+        "Please_rotate_device": "Please rotate your device to portrait",
+        "App_support_portrait": "This app support portrait mode only"
+      },
+      "NotFoundScreen": {
+        "Page_not_fond": "Page not fond",
+        "Go_back": "Go Back"
+      },
+      "SideBarScreen": {
+        "Recovery_password": "Recovery Password",
+        "Check_your_email": "To recover your password please check your email",
+        "Invalid_Password": "Invalid Password",
+        "Create_an_Account": "Please create a new account",
+        "Account_Created_with_Sucusse": "Account Created with Sucusse",
+        "Created_Account_fail": "Invalid Fields, please try again"
+      },
+      "Login": {
+        "Welcome_back": "Welcome back!",
+        "Email": "Email",
+        "Password": "Password",
+        "Language": "Language",
+        "Select": "Select",
+        "Login": "Login",
+        "Forgot_password": "Forgot password?",
+        "Dont_have_an_account": "Don´t have an account?",
+        "Register_now": "Register now"
+      },
+      "SignUp": {
+        "Sign_up": "Sign Up",
+        "Name": "Name",
+        "Email": "Email",
+        "Password": "Password",
+        "Confirm_password": "Confirm password",
+        "Password_question": "Password Question",
+        "Password_answwer": "Password Anwser",
+        "Next": "Next",
+        "Club": "Club",
+        "Card_number": "Card Number",
+        "Expiration_date": "Expiration Date",
+        "Country": "Country",
+        "Language": "Language",
+        "Receive_news_from_cci": "Receive News From CCI",
+        "Register": "Register",
+        "Select": "Select",
+        "Back": "Back"
+      },
+      "ForgotPassword": {
+        "Forgot_password": "Forgot Password?",
+        "Email": "Email",
+        "Send_email": "Send Email",
+        "Dont_have_an_account": "Don´t have an account?",
+        "Register_now": "Register now"
+      },
+      "Map": {
+        "Search": "Search",
+        "Allow_app_access": "Allow the app to access the device's location?",
+        "Allow": "Allow",
+        "Not_allow": "Not allow",
+        "Campsites_near_you": "Campsites near you",
+        "Campsites": "Campsites",
+        "Digital_card": "Digital Card",
+        "Redefine_your_search": "Redefine your search",
+        "Country": "Country",
+        "Category": "Category",
+        "Discount": "Discount",
+        "Clear_all": "Clear All",
+        "Apply": "Apply",
+        "Results": "Results",
+        "Map": "Map",
+        "Book_now": "Book now",
+        "Bank_insurance": "Bank & Insurance",
+        "Bars_restaurants": "Bars & Restaurants",
+        "Books_newspapers": "Books & Newspapers",
+        "Caravans_motorcaravans": "Caravans & Motorcaravans",
+        "Children": "Children",
+        "Clothes_fashion": "Clothes & Fashion",
+        "Sport_hobbies": "Sport & Hobbies",
+        "Technics_stuff": "Technics & Stuff",
+        "Travel_adventure": "Travel & Adventure",
+        "Select_all": "Select All"
+      },
+      "Profile": {
+        "Profile": "Profile",
+        "Digital_card": "Digital card",
+        "Help": "Help",
+        "Contacts": "Contacts",
+        "Front_card": "Front Card",
+        "Back_card": "Back Card",
+        "Campsites": "Campsites",
+        "How_to_reset_my_password?": "How to reset my password?",
+        "How_to_get_my_CCI?": "How to get my CCI?",
+        "Address": "Address"
+      },
+      "ErrorMessages": {
+        "Required_filed": "Required Filed!",
+        "Minimum_6_digits": "Minimum 6 digits!",
+        "Password_do_not_match": "Password do not match!",
+        "Please_write_your_email": "Please write your email!",
+        "Please_confirm_your_password": "Please confirm your password!",
+        "Please_write_your_name": "Please write your name!",
+        "Please_write_your_password": "Please write your password!",
+        "Please_write_valid_email": "Please write a Valid Email!",
+        "Please_write_security_question": "Please write a security question!",
+        "Please_write_security_answer": "Please write a security answer!",
+        "Please_write_your_card_number": "Please write your Card Number!",
+        "Please_write_a_valid_card_number": "Please write your Card Number!",
+        "Please_select_your_language": "Please select your Language!",
+        "Please_select_a_date": "Please select a Date!",
+        "Please_select_a_valid_date": "Please select a valid Date!",
+        "Please_select_your_country": "Please select your Country!"
+      }
     },
     "languagesList": [{
       "value": "399",
@@ -22598,31 +22708,34 @@ router.get("/signup", (req, res) => {
       "value": "554"
     }]
   });
-}); // Dummy Users
-
+});
 router.post("/login", function (req, res) {
-  const users = [{
+  const user = [{
+    "isLogin": true,
     "email": "nuno.s@shareit.dev",
-    "password": "Pass12345"
+    "password": "Pass12345",
+    "cardNumber": "123456",
+    "language": "399"
   }];
-  console.log(req.body.email);
+  res.status(200).send({
+    user
+  });
+});
+router.post("/forgotpass", (req, res) => {
+  console.log(users);
   let result = users.find(user => user.email == req.body.email);
+  console.log(result);
 
   if (result) {
-    if (result.password == req.body.password) {
-      res.send({
-        message: "success login!"
-      });
-    } else {
-      res.send({
-        message: "password incorrect!"
-      });
-    }
-  } else {
-    res.send({
-      message: "user not found!"
+    res.status(200).send({
+      message: "email send with success"
     });
   }
+});
+router.post("/account", function (req, res) {
+  res.status(200).send({
+    message: "user created with success"
+  });
 });
 app.use(`/.netlify/functions/api`, router);
 module.exports = app;
