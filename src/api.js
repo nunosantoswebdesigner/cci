@@ -1049,7 +1049,7 @@ router.post("/forgotpass", (req, res, next) => {
    
     console.log(users)
 
-    let result  = await users.find(user => user.email == req.body.email)
+    let result  =  users.find(user => user.email == req.body.email)
     console.log(result)
 
     if (result) {

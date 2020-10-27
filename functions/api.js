@@ -22721,7 +22721,7 @@ router.post("/login", function (req, res) {
     user
   });
 });
-router.post("/forgotpass", (req, res) => {
+router.post("/forgotpass", (req, res, next) => {
   console.log(users);
   let result = users.find(user => user.email == req.body.email);
   console.log(result);
@@ -22729,6 +22729,10 @@ router.post("/forgotpass", (req, res) => {
   if (result) {
     res.status(200).send({
       message: "email send with success"
+    });
+  } else {
+    res.status(400).send({
+      message: "email not found"
     });
   }
 });
