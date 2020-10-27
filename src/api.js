@@ -119,6 +119,7 @@ router.get("/global", (req, res) => {
             "Required_filed" : "Required Filed!",
             "Minimum_6_digits" : "Minimum 6 digits!",
             "Password_do_not_match" : "Password do not match!",
+            "Please_write_your_email" : "Please write your email!",
             "Please_confirm_your_password" : "Please confirm your password!",
             "Please_write_your_name" : "Please write your name!",
             "Please_write_your_password" : "Please write your password!",
