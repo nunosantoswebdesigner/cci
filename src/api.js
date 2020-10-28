@@ -54,7 +54,7 @@ router.get("/global", (req, res) => {
             "Register_now" : "Register now",
         },
         "SignUp" : {
-            "Sign_up" : "Sign Up",
+            "Edit Profile" : "Sign Up",
             "Name" : "Name",
             "Email" : "Email",
             "Password" : "Password",
@@ -71,6 +71,7 @@ router.get("/global", (req, res) => {
             "Register" : "Register",
             "Select" : "Select",
             "Back" : "Back",
+            "Edit_profile" : "Edit Profile",
         },
         "ForgotPassword" : {
             "Forgot_password" : "Forgot Password?",
