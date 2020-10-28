@@ -34,11 +34,12 @@ router.get("/global", (req, res) => {
         "SideBarScreen" : {
             "Recovery_password" : "Recovery Password",
             "Check_your_email_recover" : "To recover your password please check your email",
-            "Invalid_Email" : "Invalid Email!",
+            "Check_your_email_verification" : "Please check your email box to verification your account",
+            "Invalid_email" : "Invalid Email!",
             "Please_try_again" : "Please try again!",
-            "Create_an_Account" : "Please create a new account",
-            "Account_Created_with_Sucusse" : "Account Created with Success",
-            "Created_Account_fail" : "Invalid Fields, please try again"
+            "Create_an_account" : "Please create a new account",
+            "Account_created_with_success" : "Account Created with Success",
+            "Created_account_fail" : "Invalid Fields, please try again"
         },
         "Login" : {
             "Welcome_back": "Welcome back!",
