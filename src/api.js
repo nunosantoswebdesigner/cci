@@ -1047,7 +1047,7 @@ router.post("/login", function(req, res) {
 
 
 router.post("/forgotpass", (req, res) => {
-    let isUser = false
+    let isUser = true
     
     if (isUser) {
         res.status(200).send({
