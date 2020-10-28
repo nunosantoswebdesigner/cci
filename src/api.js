@@ -14,11 +14,11 @@ app.use(function(req, res, next) {
 });
 
 
-var users = [
+var users = 
     {
-        email: "nuno.s@shareit.dev", password: "password"
+        email: 'nuno.s@shareit.dev'
     }
-]
+
 
 
 router.get("/global", (req, res) => {
@@ -42,7 +42,8 @@ router.get("/global", (req, res) => {
         "SideBarScreen" : {
             "Recovery_password" : "Recovery Password",
             "Check_your_email" : "To recover your password please check your email",
-            "Invalid_Password" : "Invalid Password",
+            "Invalid_Email" : "Invalid Email!",
+            "Please_try_again" : "Please try again!",
             "Create_an_Account" : "Please create a new account",
             "Account_Created_with_Sucusse" : "Account Created with Sucusse",
             "Created_Account_fail" : "Invalid Fields, please try again"
@@ -1045,20 +1046,24 @@ router.post("/login", function(req, res) {
 })
 
 
-router.post("/forgotpass", (req, res, next) => {
-   
-    console.log(users)
-
-    let result  =  users.find(user => user.email == req.body.email)
-    console.log(result)
-
-    if (result) {
+router.post("/forgotpass", (req, res) => {
+    let isUser = false
+    
+    if (isUser) {
         res.status(200).send({
-            message: "email send with success"
+            messageStatus: "Success",
+            messageSuccess: {
+                title: "Recovery Password ",
+                text: "To recover your password please check your email"
+            }
         })
     } else {
         res.status(400).send({
-            message: "email not found"
+            messageStatus: "Error",
+            messageError: {
+                title: "Invalid Email",
+                text: "Please try again"
+            }
         })
     }
    

@@ -21917,10 +21917,9 @@ app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
   next();
 });
-var users = [{
-  email: "nuno.s@shareit.dev",
-  password: "password"
-}];
+var users = {
+  email: 'nuno.s@shareit.dev'
+};
 router.get("/global", (req, res) => {
   res.json({
     "Translates": {
@@ -22721,18 +22720,24 @@ router.post("/login", function (req, res) {
     user
   });
 });
-router.post("/forgotpass", (req, res, next) => {
-  console.log(users);
-  let result = users.find(user => user.email == req.body.email);
-  console.log(result);
+router.post("/forgotpass", (req, res) => {
+  let isUser = false;
 
-  if (result) {
+  if (isUser) {
     res.status(200).send({
-      message: "email send with success"
+      messageStatus: "Success",
+      messageSuccess: {
+        title: "Invalid Email",
+        text: "Please confirm your password!"
+      }
     });
   } else {
     res.status(400).send({
-      message: "email not found"
+      messageStatus: "Error",
+      messageError: {
+        title: "Invalid Email",
+        text: "Please confirm your password!"
+      }
     });
   }
 });
