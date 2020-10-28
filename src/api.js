@@ -36,10 +36,11 @@ router.get("/global", (req, res) => {
             "Check_your_email_recover" : "To recover your password please check your email",
             "Check_your_email_verification" : "Please check your email box to verification your account",
             "Invalid_email" : "Invalid Email!",
+            "Invalid_fields" : "Invalid Fields",
             "Please_try_again" : "Please try again!",
             "Create_an_account" : "Please create a new account",
             "Account_created_with_success" : "Account Created with Success",
-            "Created_account_fail" : "Invalid Fields, please try again"
+            "Created_account_fail" : "Failed to Created an Account"
         },
         "Login" : {
             "Welcome_back": "Welcome back!",
@@ -1060,7 +1061,8 @@ router.post("/forgotpass", (req, res) => {
    
 })
 router.post("/account", function(req, res) {
-    let isValidFields = true
+
+    let isValidFields = false
     if (isValidFields) {
         res.status(200).send({
             messageStatus: "Success",
@@ -1073,8 +1075,8 @@ router.post("/account", function(req, res) {
         res.status(400).send({
             messageStatus: "Error",
             messageError: {
-                title: "Invalid Fields",
-                text: "Please try again"
+                title: "Failed to Created an Account",
+                text: "Invalid Fields, Please try again!"
             }
         })
     }
