@@ -13,14 +13,6 @@ app.use(function(req, res, next) {
     next();
 });
 
-
-var users = 
-    {
-        email: 'nuno.s@shareit.dev'
-    }
-
-
-
 router.get("/global", (req, res) => {
   res.json({
     "Translates" : {
@@ -41,11 +33,11 @@ router.get("/global", (req, res) => {
         },
         "SideBarScreen" : {
             "Recovery_password" : "Recovery Password",
-            "Check_your_email" : "To recover your password please check your email",
+            "Check_your_email_recover" : "To recover your password please check your email",
             "Invalid_Email" : "Invalid Email!",
             "Please_try_again" : "Please try again!",
             "Create_an_Account" : "Please create a new account",
-            "Account_Created_with_Sucusse" : "Account Created with Sucusse",
+            "Account_Created_with_Sucusse" : "Account Created with Success",
             "Created_Account_fail" : "Invalid Fields, please try again"
         },
         "Login" : {
@@ -1044,12 +1036,10 @@ router.post("/login", function(req, res) {
     ]
      res.status(200).send({user})
 })
-
-
 router.post("/forgotpass", (req, res) => {
-    let isUser = true
+    let isValidUser = true
     
-    if (isUser) {
+    if (isValidUser) {
         res.status(200).send({
             messageStatus: "Success",
             messageSuccess: {
@@ -1069,9 +1059,24 @@ router.post("/forgotpass", (req, res) => {
    
 })
 router.post("/account", function(req, res) {
-    res.status(200).send({
-        message: "user created with success"
-    })
+    let isValidFields = true
+    if (isValidFields) {
+        res.status(200).send({
+            messageStatus: "Success",
+            messageSuccess: {
+                title: "Account Created with Success",
+                text: "Please check your email box to verification your account"
+            }
+        })
+    } else {
+        res.status(400).send({
+            messageStatus: "Error",
+            messageError: {
+                title: "Invalid Fields",
+                text: "Please try again"
+            }
+        })
+    }
 })
 
 app.use(`/.netlify/functions/api`, router);
