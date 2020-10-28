@@ -1061,8 +1061,7 @@ router.post("/forgotpass", (req, res) => {
    
 })
 router.post("/account", function(req, res) {
-
-    let isValidFields = false
+    let isValidFields = true
     if (isValidFields) {
         res.status(200).send({
             messageStatus: "Success",
