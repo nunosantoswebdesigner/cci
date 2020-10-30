@@ -13,6 +13,7 @@ app.use(function(req, res, next) {
     next();
 });
 
+// GET
 router.get("/global", (req, res) => {
   res.json({
     "Translates" : {
@@ -1028,31 +1029,59 @@ router.get("/signup", (req, res) => {
 });
 });
 router.get("/help", (req, res) => {
-    res.json({
-        "helpList" : [
-            {   
-                "id": "1",
-                "title": "How to reset my password?",
-                "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
-            },
-            {
-                "id": "2",
-                "title": "How to get my CCI?",
-                "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
-            },
-            {
-                "id": "3",
-                "title": "How to reset my password?",
-                "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
-            },
-            {
-                "id": "4",
-                "title": "How to get my CCI?",
-                "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
-            }
-        ]
-    });
+    res.json([
+        {   
+            "id": "1",
+            "title": "How to reset my password?",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+        },
+        {
+            "id": "2",
+            "title": "How to get my CCI?",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+        },
+        {
+            "id": "3",
+            "title": "How to reset my password?",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+        },
+        {
+            "id": "4",
+            "title": "How to get my CCI?",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+        }
+    ]);
 });
+router.get("/users", function(req, res) {
+    res.json([
+        {   
+            "id": 1,
+            "name": "Joana Mendes",
+            "email" : "joanamendes@shareit.dev",
+            "password" : "123456",
+            "passwordQuestion" : "My Favorite Color",
+            "passwordAnswer" : "Green",
+            "club" : "0102 - Camping und Caravaning Club Austria",
+            "cardNumber" : "123456",
+            "expirationDate" : "10-12-2023",
+            "country" : "Austria",
+            "language" : "EN",
+            "subscrive" : true
+        }
+    ]);
+})
+router.get("/club", function(req, res) {
+    res.json([
+        {   
+            "id": 1,
+            "address": "Fédération Internationale de Camping, Caravanning et Autocaravaning A.I.S.B.L. (F.I.C.C.) - Rue Belliard 20 - BE - 1040 Bruxelles",
+            "phone" : "info@ficc.org",
+            "email" : "info@ficc.org",
+            "website" : "www.campingcardinternational.com"
+        }
+    ]);
+})
+// POST
 router.post("/login", function(req, res) {
     const user =  [
         {
