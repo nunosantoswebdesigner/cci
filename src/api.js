@@ -1080,7 +1080,7 @@ router.get("/club", function(req, res) {
                 "address": "Fédération Internationale de Camping, Caravanning et Autocaravaning A.I.S.B.L. (F.I.C.C.) - Rue Belliard 20 - BE - 1040 Bruxelles",
                 "email" : "info@ficc.org",
                 "phone" : "+32 2 513 87 82",
-                "website" : "https://www.campingcardinternational.com"
+                "website" : "www.campingcardinternational.com"
             }
         
     });
