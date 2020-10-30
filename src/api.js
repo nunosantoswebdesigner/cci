@@ -1053,35 +1053,39 @@ router.get("/help", (req, res) => {
     ]);
 });
 router.get("/users", function(req, res) {
-    res.json([
-        {   
-            "id": 1,
-            "name": "Joana Mendes",
-            "email" : "joanamendes@shareit.dev",
-            "password" : "123456",
-            "passwordQuestion" : "My Favorite Color",
-            "passwordAnswer" : "Green",
-            "club" : "0102 - Camping und Caravaning Club Austria",
-            "cardNumber" : "123456",
-            "expirationDate" : "10-12-2023",
-            "country" : "Austria",
-            "language" : "EN",
-            "subscrive" : true
-        }
-    ]);
+    res.json({
+        "usersList" : [
+            {   
+                "id": 1,
+                "name": "Joana Mendes",
+                "email" : "joanamendes@shareit.dev",
+                "password" : "123456",
+                "passwordQuestion" : "My Favorite Color",
+                "passwordAnswer" : "Green",
+                "club" : "0102 - Camping und Caravaning Club Austria",
+                "cardNumber" : "123456",
+                "expirationDate" : "10-12-2023",
+                "country" : "Austria",
+                "language" : "EN",
+                "subscrive" : true
+            }
+        ]
+    });
 })
 router.get("/club", function(req, res) {
-    res.json([
-        {   
-            "id": 1,
+    res.json({
+        "clubList" : [
+            {   
+                "id": 1,
             "address": "Fédération Internationale de Camping, Caravanning et Autocaravaning A.I.S.B.L. (F.I.C.C.) - Rue Belliard 20 - BE - 1040 Bruxelles",
             "phone" : "info@ficc.org",
             "email" : "info@ficc.org",
             "website" : "www.campingcardinternational.com"
-        }
-    ]);
+            }
+        ]
+    });
 })
-// POST
+ // POST
 router.post("/login", function(req, res) {
     const user =  [
         {
