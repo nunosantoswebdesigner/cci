@@ -1040,7 +1040,7 @@ router.post("/login", function(req, res) {
      res.status(200).send({user})
 })
 router.post("/forgotpass", (req, res) => {
-    let isValidUser = true
+    let isValidUser = false
     
     if (isValidUser) {
         res.status(200).send({
@@ -1062,7 +1062,8 @@ router.post("/forgotpass", (req, res) => {
    
 })
 router.post("/account", function(req, res) {
-    let isValidFields = true
+    let isValidFields = false
+    
     if (isValidFields) {
         res.status(200).send({
             messageStatus: "Success",
