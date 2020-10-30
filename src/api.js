@@ -1030,19 +1030,23 @@ router.get("/signup", (req, res) => {
 router.get("/help", (req, res) => {
     res.json({
         "helpList" : [
-            {
+            {   
+                "id": "1",
                 "title": "How to reset my password?",
                 "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
             },
             {
+                "id": "2",
                 "title": "How to get my CCI?",
                 "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
             },
             {
+                "id": "3",
                 "title": "How to reset my password?",
                 "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
             },
             {
+                "id": "4",
                 "title": "How to get my CCI?",
                 "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
             }
