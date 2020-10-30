@@ -193,7 +193,7 @@ router.get("/help", (req, res) => {
         }
     ]
 });
-});
+
 router.post("/login", function(req, res) {
     const user =  [
         {
