@@ -1097,7 +1097,7 @@ router.post("/login", function(req, res) {
      res.status(200).send({user})
 })
 router.post("/forgotpass", (req, res) => {
-    let isValidUser = false
+    let isValidUser = true
     if (isValidUser) {
         res.status(200).send({
             messageStatus: "Success",
@@ -1117,7 +1117,7 @@ router.post("/forgotpass", (req, res) => {
     }
 })
 router.post("/account", function(req, res) {
-    let isValidFields = false
+    let isValidFields = true
     if (isValidFields) {
         res.status(200).send({
             messageStatus: "Success",
@@ -1131,7 +1131,13 @@ router.post("/account", function(req, res) {
             messageStatus: "Error",
             messageError: {
                 title: "Failed to Created an Account",
-                text: "Invalid Fields, Please try again!"
+                text: "Invalid Fields, Please try again!",
+                fields: [
+                    {
+                        "field" : "cardNumber",
+                        "error": "invalid field"
+                    }
+                ]
             }
         })
     }
