@@ -117,8 +117,6 @@ router.get("/global", (req, res) => {
             "Front_card" : "Front Card",
             "Back_card" : "Back Card",
             "Campsites" : "Campsites",
-            "How_to_reset_my_password?" : "How to reset my password?",
-            "How_to_get_my_CCI?" : "How to get my CCI?",
             "Address" : "Address",
         },
         "ErrorMessages" : {
@@ -1099,8 +1097,7 @@ router.post("/login", function(req, res) {
      res.status(200).send({user})
 })
 router.post("/forgotpass", (req, res) => {
-    let isValidUser = true
-    
+    let isValidUser = false
     if (isValidUser) {
         res.status(200).send({
             messageStatus: "Success",
@@ -1118,10 +1115,9 @@ router.post("/forgotpass", (req, res) => {
             }
         })
     }
-   
 })
 router.post("/account", function(req, res) {
-    let isValidFields = true
+    let isValidFields = false
     if (isValidFields) {
         res.status(200).send({
             messageStatus: "Success",
