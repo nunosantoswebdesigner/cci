@@ -125,6 +125,7 @@ router.get("/global", (req, res) => {
             "Issue" : "Issue",
             "Member" : "Member",
             "Nacionality" : "Nacionality",
+            "Validity" : "Validity",
             "Front_card" : "Front Card",
             "Back_card" : "Back Card",
         },
