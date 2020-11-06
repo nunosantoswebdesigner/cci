@@ -1083,6 +1083,28 @@ router.get("/club", function(req, res) {
         
     });
 })
+router.get("/card", function(req, res) {
+    res.json({
+        "cardUserList" : 
+            {   
+                "id": 1,
+                "logo": "",
+                "qrcode": "",
+                "name": "",
+                "address": "",
+                "address": "",
+                "birth": "",
+                "passport": "",
+                "issue": "",
+                "member": "",
+                "nacionality": "",
+                "validity": "",
+                "back_main_text": "",
+                "back_footer_text": "",
+            }
+        
+    });
+})
  // POST
 router.post("/login", function(req, res) {
     const user =  [
