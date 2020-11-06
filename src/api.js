@@ -114,8 +114,6 @@ router.get("/global", (req, res) => {
             "Digital_card" : "Digital card",
             "Help" : "Help",
             "Contacts" : "Contacts",
-            "Front_card" : "Front Card",
-            "Back_card" : "Back Card",
             "Campsites" : "Campsites",
             "Address" : "Address",
         },
@@ -127,6 +125,8 @@ router.get("/global", (req, res) => {
             "Issue" : "Issue",
             "Member" : "Member",
             "Nacionality" : "Nacionality",
+            "Front_card" : "Front Card",
+            "Back_card" : "Back Card",
         },
         "ErrorMessages" : {
             "Required_filed" : "Required Filed!",
