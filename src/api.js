@@ -119,6 +119,15 @@ router.get("/global", (req, res) => {
             "Campsites" : "Campsites",
             "Address" : "Address",
         },
+        "DigitalCard" : {
+            "Name" : "Name",
+            "Address" : "Address",
+            "Birth" : "Birth",
+            "Passport" : "Passport",
+            "Issue" : "Issue",
+            "Member" : "Member",
+            "Nacionality" : "Nacionality",
+        },
         "ErrorMessages" : {
             "Required_filed" : "Required Filed!",
             "Minimum_6_digits" : "Minimum 6 digits!",
@@ -1050,7 +1059,7 @@ router.get("/help", (req, res) => {
         }
     ]);
 });
-router.get("/users", function(req, res) {
+router.get("/users", (req, res) => {
     res.json({
         "usersList" : 
             {   
@@ -1070,43 +1079,42 @@ router.get("/users", function(req, res) {
         
     });
 })
-router.get("/club", function(req, res) {
+router.get("/club", (req, res) => {
     res.json({
-        "clubList" : 
-            {   
-                "id": 1,
-                "address": "Fédération Internationale de Camping, Caravanning et Autocaravaning A.I.S.B.L. (F.I.C.C.) - Rue Belliard 20 - BE - 1040 Bruxelles",
-                "email" : "info@ficc.org",
-                "phone" : "+32 2 513 87 82",
-                "website" : "www.campingcardinternational.com"
-            }
-        
+        "clubList" : {   
+            "id": 1,
+            "address": "Fédération Internationale de Camping, Caravanning et Autocaravaning A.I.S.B.L. (F.I.C.C.) - Rue Belliard 20 - BE - 1040 Bruxelles",
+            "email" : "info@ficc.org",
+            "phone" : "+32 2 513 87 82",
+            "website" : "www.campingcardinternational.com"
+        }
     });
 })
-router.get("/card", function(req, res) {
+router.get("/card", (req, res) => {
     res.json({
-        "cardUserList" : 
-            {   
-                "id": 1,
-                "logo": "",
-                "qrcode": "",
-                "name": "",
-                "address": "",
-                "address": "",
-                "birth": "",
-                "passport": "",
-                "issue": "",
-                "member": "",
-                "nacionality": "",
-                "validity": "",
-                "back_main_text": "",
-                "back_footer_text": "",
-            }
-        
+        "cardUserList" : {
+            "id": 1,
+            "front_img" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/1bda64bc5cb949476a3cf88dc230277d/card-front.png",
+            "back_img" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/4bc8b5be06f077322875dda7bcd80c5f/card-back.png",
+            "club_logo": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/31edc9400e126c66895f081b2e324052/ccca-logo.png",
+            "club_qrcode": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/23af51e6cc9b10a347d511700337907b/qr-code.png",
+            "number": "4000 0200 0001",
+            "name": "Joana Mendes",
+            "address_street": "Estrada Nacional 242, No 12",
+            "address_local": "2450-138 Nazaré, Portugal",
+            "birth_date": "01/10/2020",
+            "birth_place": "Nazaré",
+            "passport": "1234567890",
+            "issue_date": "01/10/2020",
+            "issue_place": "Nazaré",
+            "member": "CCI123",
+            "nacionality": "Potuguese",
+            "validity": "16/19/2020"
+        }
     });
 })
  // POST
-router.post("/login", function(req, res) {
+router.post("/login", (req, res) => {
     const user =  [
         {
             "isLogin": true, 
@@ -1138,7 +1146,7 @@ router.post("/forgotpass", (req, res) => {
         })
     }
 })
-router.post("/account", function(req, res) {
+router.post("/account", (req, res) => {
     let isValidFields = true
     if (isValidFields) {
         res.status(200).send({
