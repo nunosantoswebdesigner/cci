@@ -22,15 +22,16 @@ router.get("/global", (req, res) => {
             "CountriesTotal" : 40,
             "Get_discounts_in" : "Get discounts in",
             "Campsites_in" : "campsites in",
-            "Countries" : "countries",
+            "Countries" : "countries"
         },
         "SwipeScreen" : {
             "Please_rotate_device" : "Please rotate your device to portrait",
             "App_support_portrait" : "This app support portrait mode only",
+            "Please_open_mobile_device" : "Please open on a mobile device"
         },
         "NotFoundScreen" : {
             "Page_not_fond" : "Page not fond",
-            "Go_back" : "Go Back",
+            "Go_back" : "Go Back"
         },
         "SideBarScreen" : {
             "Recovery_password" : "Recovery Password",
@@ -52,7 +53,7 @@ router.get("/global", (req, res) => {
             "Login" : "Login",
             "Forgot_password" : "Forgot password?",
             "Dont_have_an_account" : "Don´t have an account?",
-            "Register_now" : "Register now",
+            "Register_now" : "Register now"
         },
         "SignUp" : {
             "Sign_up" : "Sign Up",
@@ -72,7 +73,7 @@ router.get("/global", (req, res) => {
             "Register" : "Register",
             "Select" : "Select",
             "Back" : "Back",
-            "Edit_profile" : "Edit Profile",
+            "Edit_profile" : "Edit Profile"
         },
         "ForgotPassword" : {
             "Forgot_password" : "Forgot Password?",
@@ -107,7 +108,7 @@ router.get("/global", (req, res) => {
             "Sport_hobbies" : "Sport & Hobbies",
             "Technics_stuff" : "Technics & Stuff",
             "Travel_adventure" : "Travel & Adventure",
-            "Select_all" : "Select All",
+            "Select_all" : "Select All"
         },
         "Profile" : {
             "Profile" : "Profile",
