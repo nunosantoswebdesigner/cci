@@ -27,6 +27,7 @@ router.get("/global", (req, res) => {
         "SwipeScreen" : {
             "Please_rotate_device" : "Please rotate your device to portrait",
             "App_support_portrait" : "This app support portrait mode only",
+            "Please_open_mobile_device" : "Please open on a mobile device",
         },
         "NotFoundScreen" : {
             "Page_not_fond" : "Page not fond",
