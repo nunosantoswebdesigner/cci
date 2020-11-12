@@ -240,3 +240,37 @@ entity_id=8333" data-name="Os Anjos" data-country="Portugal" data-latitude="39.0
 
 
 
+
+  const locations = [
+    {
+      name: "Location 1",
+      location: { 
+        lat: 40.15788524950653,
+        lng: -8.843994140625002
+      },
+      icon : {
+        url: require('../../../content/svg/icon-map-marker.svg'),
+      }
+    },
+    {
+      name: "Location 2",
+      location: { 
+        lat:39.7240885773337,
+        lng: -8.975830078125002
+      },
+      icon : {
+        url: require('../../../content/svg/icons-map/map-caravan.svg'),
+      }
+    },
+    {
+      name: "Location 3",
+      location: { 
+        lat: 38.58252615935333,
+        lng: -9.250488281250002
+      },
+      icon : {
+        url: require('../../../content/svg/icons-map/map-money.svg'),
+      }
+    }
+  ];
+ 

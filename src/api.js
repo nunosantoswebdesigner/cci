@@ -1122,8 +1122,8 @@ router.get("/campsites", (req, res) => {
                     "entity_id" : "6867",
                     "data_name" : "Vidoeiro Ger&#234;s Camping &amp;#8211; Kitur", 
                     "data_country" : "Portugal", 
-                    "data_latitude" : "41.7017885", 
-                    "data_longitude" : "-8.168288500000017", 
+                    "data_latitude" : 41.7017885, 
+                    "data_longitude" : -8.168288500000017, 
                     "data_image" : "", 
                     "data_hs-discount" : "10", 
                     "data_ls-discount" : "20"
@@ -1133,8 +1133,8 @@ router.get("/campsites", (req, res) => {
                     "entity_id" : "6905",
                     "data_name" : "Clube de Campismo e Caravanismo de Torres Vedras", 
                     "data_country" : "Portugal", 
-                    "data_latitude" : "39.133549078316065", 
-                    "data_longitude" : "-9.374857379870605", 
+                    "data_latitude" : 39.133549078316065, 
+                    "data_longitude" : -9.374857379870605, 
                     "data_image" : "", 
                     "data_hs-discount" : "20", 
                     "data_ls-discount" : "20"
@@ -1144,8 +1144,8 @@ router.get("/campsites", (req, res) => {
                     "entity_id" : "8116",
                     "data_name" : "NaturWaterPark", 
                     "data_country" : "Portugal", 
-                    "data_latitude" : "41.195", 
-                    "data_longitude" : "-7.7783", 
+                    "data_latitude" : 41.195, 
+                    "data_longitude" : -7.7783, 
                     "data_image" : "", 
                     "data_hs-discount" : "5", 
                     "data_ls-discount" : "15"
