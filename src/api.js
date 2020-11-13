@@ -1544,14 +1544,13 @@ router.get("/campsites", (req, res) => {
                 },
                 {
                     "entity_id" : "8898",
-                    "data_name" : "Vale Para&#237;so", 
+                    "data_name" : "Vale Paraíso Natur Park", 
                     "data_country" : "Portugal", 
                     "data_latitude" : 39.601875, 
                     "data_longitude" : -9.071212, 
                     "data_image" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a9fd7300f4ced4198df275e235ec584b/vale-paraiso-naturpark-big.jpg", 
                     "data_hs_discount" : "10", 
                     "data_ls_discount" : "20",
-                    "data_camp" : "Natur Park", 
                     "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
                     "data_address" : 
                         {
