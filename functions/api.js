@@ -21916,155 +21916,1146 @@ app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
   next();
-});
-var users = {
-  email: 'nuno.s@shareit.dev'
-};
+}); // GET
+
 router.get("/global", (req, res) => {
-  res.json({
-    "Translates": {
-      "OnboardScreen": {
-        "CampsitesTotal": 3197,
-        "CountriesTotal": 40,
-        "Get_discounts_in": "Get discounts in",
-        "Campsites_in": "campsites in",
-        "Countries": "countries"
+  let lang = req.query.lang;
+
+  if (lang === 'EN') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Get discounts in",
+          "Campsites_in": "campsites in",
+          "Countries": "countries"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Please rotate your device to portrait",
+          "App_support_portrait": "This app support portrait mode only",
+          "Please_open_mobile_device": "Please open on a mobile device"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Page not fond",
+          "Go_back": "Go Back"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Recovery Password",
+          "Check_your_email_recover": "To recover your password please check your email",
+          "Check_your_email_verification": "Please check your email box to verification your account",
+          "Invalid_email": "Invalid Email!",
+          "Invalid_fields": "Invalid Fields",
+          "Please_try_again": "Please try again!",
+          "Create_an_account": "Please create a new account",
+          "Account_created_with_success": "Account Created with Success",
+          "Created_account_fail": "Failed to Created an Account"
+        },
+        "Login": {
+          "Welcome_back": "Welcome back!",
+          "Email": "Email",
+          "Password": "Password",
+          "Language": "Language",
+          "Select": "Select",
+          "Login": "Login",
+          "Forgot_password": "Forgot password?",
+          "Dont_have_an_account": "Don´t have an account?",
+          "Register_now": "Register now"
+        },
+        "SignUp": {
+          "Sign_up": "Sign Up",
+          "Name": "Name",
+          "Email": "Email",
+          "Password": "Password",
+          "Confirm_password": "Confirm password",
+          "Password_question": "Password Question",
+          "Password_answwer": "Password Anwser",
+          "Next": "Next",
+          "Club": "Club",
+          "Card_number": "Card Number",
+          "Expiration_date": "Expiration Date",
+          "Country": "Country",
+          "Language": "Language",
+          "Receive_news_from_cci": "Receive News From CCI",
+          "Register": "Register",
+          "Select": "Select",
+          "Back": "Back",
+          "Edit_profile": "Edit Profile"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Forgot Password?",
+          "Email": "Email",
+          "Send_email": "Send Email",
+          "Dont_have_an_account": "Don´t have an account?",
+          "Register_now": "Register now"
+        },
+        "Map": {
+          "Search": "Search",
+          "Allow_app_access": "Allow the app to access the device's location?",
+          "Allow": "Allow",
+          "Not_allow": "Not allow",
+          "Campsites_near_you": "Campsites near you",
+          "Campsites": "Campsites",
+          "Digital_card": "Digital Card",
+          "Redefine_your_search": "Redefine your search",
+          "Country": "Country",
+          "Category": "Category",
+          "Discount": "Discount",
+          "Clear_all": "Clear All",
+          "Apply": "Apply",
+          "Results": "Results",
+          "Map": "Map",
+          "Book_now": "Book now",
+          "Bank_insurance": "Bank & Insurance",
+          "Bars_restaurants": "Bars & Restaurants",
+          "Books_newspapers": "Books & Newspapers",
+          "Caravans_motorcaravans": "Caravans & Motorcaravans",
+          "Children": "Children",
+          "Clothes_fashion": "Clothes & Fashion",
+          "Sport_hobbies": "Sport & Hobbies",
+          "Technics_stuff": "Technics & Stuff",
+          "Travel_adventure": "Travel & Adventure",
+          "Select_all": "Select All"
+        },
+        "MapDetail": {
+          "Book_now": "Book now",
+          "Other_Disconts": "Other Disconts"
+        },
+        "Profile": {
+          "Profile": "Profile",
+          "Digital_card": "Digital card",
+          "Help": "Help",
+          "Contacts": "Contacts",
+          "Campsites": "Campsites",
+          "Address": "Address"
+        },
+        "DigitalCard": {
+          "Name": "Name",
+          "Address": "Address",
+          "Birth": "Birth",
+          "Passport": "Passport",
+          "Issue": "Issue",
+          "Member": "Member",
+          "Nacionality": "Nacionality",
+          "Validity": "Validity",
+          "Front_card": "Front Card",
+          "Back_card": "Back Card"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Required Filed!",
+          "Minimum_6_digits": "Minimum 6 digits!",
+          "Password_do_not_match": "Password do not match!",
+          "Please_write_your_email": "Please write your email!",
+          "Please_confirm_your_password": "Please confirm your password!",
+          "Please_write_your_name": "Please write your name!",
+          "Please_write_your_password": "Please write your password!",
+          "Please_write_valid_email": "Please write a Valid Email!",
+          "Please_write_security_question": "Please write a security question!",
+          "Please_write_security_answer": "Please write a security answer!",
+          "Please_write_your_card_number": "Please write your Card Number!",
+          "Please_write_a_valid_card_number": "Please write your Card Number!",
+          "Please_select_your_language": "Please select your Language!",
+          "Please_select_a_date": "Please select a Date!",
+          "Please_select_a_valid_date": "Please select a valid Date!",
+          "Please_select_your_country": "Please select your Country!"
+        }
       },
-      "SwipeScreen": {
-        "Please_rotate_device": "Please rotate your device to portrait",
-        "App_support_portrait": "This app support portrait mode only"
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  } else if (lang === 'FR') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Obtenez des rabais dans",
+          "Campsites_in": "campings en",
+          "Countries": "des pays"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Veuillez faire pivoter votre appareil en mode portrait",
+          "App_support_portrait": "Cette application ne prend en charge que le mode portrait",
+          "Please_open_mobile_device": "Veuillez ouvrir sur un appareil mobile"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Page pas aimée",
+          "Go_back": "Revenir en arrière"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Mot de passe de récupération",
+          "Check_your_email_recover": "Pour récupérer votre mot de passe, veuillez vérifier vos e-mails",
+          "Check_your_email_verification": "Veuillez vérifier votre boîte e-mail pour vérifier votre compte",
+          "Invalid_email": "Email invalide!",
+          "Invalid_fields": "Champs non valides",
+          "Please_try_again": "Veuillez réessayer!",
+          "Create_an_account": "Veuillez créer un nouveau compte",
+          "Account_created_with_success": "Compte créé avec succès",
+          "Created_account_fail": "Impossible de créer un compte"
+        },
+        "Login": {
+          "Welcome_back": "Bienvenue à nouveau!",
+          "Email": "Email",
+          "Password": "Mot de passe",
+          "Language": "Langue",
+          "Select": "Sélectionner",
+          "Login": "Connexion",
+          "Forgot_password": "Mot de passe oublié?",
+          "Dont_have_an_account": "Vous n'avez pas de compte?",
+          "Register_now": "Inscrivez-vous maintenant"
+        },
+        "SignUp": {
+          "Sign_up": "Inscription",
+          "Name": "Nom",
+          "Email": "Email",
+          "Password": "Mot de passe",
+          "Confirm_password": "Confirmer le mot de passe",
+          "Password_question": "Question de mot de passe",
+          "Password_answwer": "Password Anwser",
+          "Next": "Suivant",
+          "Club": "Club",
+          "Card_number": "Card Number",
+          "Expiration_date": "Date d'expiration",
+          "Country": "Pays",
+          "Language": "Langue",
+          "Receive_news_from_cci": "Recevoir des nouvelles de CCI",
+          "Register": "S'inscrire",
+          "Select": "Sélectionner",
+          "Back": "Retour ",
+          "Edit_profile": "EModifier le profil"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Mot de passe oublié?",
+          "Email": "Email",
+          "Send_email": "Envoyer un e-mail",
+          "Dont_have_an_account": "Vous n'avez pas de compte?",
+          "Register_now": "Inscrivez-vous maintenant"
+        },
+        "Map": {
+          "Search": "Chercher",
+          "Allow_app_access": "Autoriser l'application à accéder à la position de l'appareil?",
+          "Allow": "Autoriser",
+          "Not_allow": "Ne pas autoriser",
+          "Campsites_near_you": "Campings à proximité",
+          "Campsites": "Campings",
+          "Digital_card": "Digital Card",
+          "Redefine_your_search": "Redéfinissez votre recherche",
+          "Country": "Pays",
+          "Category": "Catégorie",
+          "Discount": "Remise",
+          "Clear_all": "Effacer tout",
+          "Apply": "Appliquer",
+          "Results": "Résultats",
+          "Map": "Carte",
+          "Book_now": "Réservez maintenant",
+          "Bank_insurance": "Banque & assurance",
+          "Bars_restaurants": "Bars & Restaurants",
+          "Books_newspapers": "Livres & Journaux",
+          "Caravans_motorcaravans": "Caravanes & Motorcaravans",
+          "Children": "Enfants",
+          "Clothes_fashion": "Vêtements et mode",
+          "Sport_hobbies": "Sport & Hobbies",
+          "Technics_stuff": "Technics & Stuff",
+          "Travel_adventure": "Voyage & Aventure",
+          "Select_all": "Sélectionner tout"
+        },
+        "MapDetail": {
+          "Book_now": "Réservez maintenant",
+          "Other_Disconts": "Other Disconts"
+        },
+        "Profile": {
+          "Profile": "Profil",
+          "Digital_card": "Digital card",
+          "Help": "À l'aide",
+          "Contacts": "Contacts",
+          "Campsites": "Campings",
+          "Address": "Adress"
+        },
+        "DigitalCard": {
+          "Name": "Nom",
+          "Address": "Adresse",
+          "Birth": "Naissance",
+          "Passport": "Passeport",
+          "Issue": "Problème",
+          "Member": "Membre",
+          "Nacionality": "Nacionality",
+          "Validity": "Validité",
+          "Front_card": "Front Card",
+          "Back_card": "Back Card"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Obligatoire déposé!",
+          "Minimum_6_digits": "Minimum 6 chiffres!",
+          "Password_do_not_match": "Le mot de passe ne correspond pas!",
+          "Please_write_your_email": "Veuillez écrire votre email!",
+          "Please_confirm_your_password": "Veuillez confirmer votre mot de passe!",
+          "Please_write_your_name": "Please write youVeuillez écrire votre nom!",
+          "Please_write_your_password": "Veuillez écrire votre mot de passe!",
+          "Please_write_valid_email": "Veuillez écrire un email valide!",
+          "Please_write_security_question": "Veuillez écrire une question de sécurité!",
+          "Please_write_security_answer": "Veuillez écrire une réponse de sécurité!",
+          "Please_write_your_card_number": "Veuillez écrire votre numéro de carte!",
+          "Please_write_a_valid_card_number": "Veuillez écrire votre numéro de carte!",
+          "Please_select_your_language": "Veuillez sélectionner votre langue!",
+          "Please_select_a_date": "Veuillez sélectionner une date!",
+          "Please_select_a_valid_date": "Veuillez sélectionner une date valide!",
+          "Please_select_your_country": "Veuillez sélectionner votre pays!"
+        }
       },
-      "NotFoundScreen": {
-        "Page_not_fond": "Page not fond",
-        "Go_back": "Go Back"
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  } else if (lang === 'DE') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Erhalten Sie Rabatte in",
+          "Campsites_in": "Campingplätze in",
+          "Countries": "Länder"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Bitte drehen Sie Ihr Gerät auf Hochformat",
+          "App_support_portrait": "Diese App unterstützt nur den Porträtmodus",
+          "Please_open_mobile_device": "Bitte auf einem mobilen Gerät öffnen"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Seite nicht gern",
+          "Go_back": "Zurück"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Wiederherstellungskennwort",
+          "Check_your_email_recover": "Um Ihr Passwort wiederherzustellen, überprüfen Sie bitte Ihre E-Mails",
+          "Check_your_email_verification": "Bitte überprüfen Sie Ihr E-Mail-Kontrollkästchen, um Ihr Konto zu bestätigen",
+          "Invalid_email": "Ungültige E-Mail!",
+          "Invalid_fields": "Ungültige Felder",
+          "Please_try_again": "Bitte versuchen Sie es erneut!",
+          "Create_an_account": "Bitte erstellen Sie ein neues Konto",
+          "Account_created_with_success": "Mit Erfolg erstelltes Konto",
+          "Created_account_fail": "Fehler beim Erstellen eines Kontos"
+        },
+        "Login": {
+          "Welcome_back": "Willkommen zurück!",
+          "Email": "Email",
+          "Password": "Passwort",
+          "Language": "Sprache",
+          "Select": "Auswählen",
+          "Login": "Einloggen",
+          "Forgot_password": "Passwort vergessen?",
+          "Dont_have_an_account": "Passwort vergessen?",
+          "Register_now": "Jetzt registrieren"
+        },
+        "SignUp": {
+          "Sign_up": "Anmelden",
+          "Name": "Name",
+          "Email": "Email",
+          "Password": "Passwort",
+          "Confirm_password": "Bestätigen Passwort",
+          "Password_question": "Passwortfrage",
+          "Password_answwer": "Passwort Antworten",
+          "Next": "Weiter",
+          "Club": "Verein",
+          "Card_number": "Kartennummer",
+          "Expiration_date": "Ablaufdatum",
+          "Country": "Land",
+          "Language": "Sprache",
+          "Receive_news_from_cci": "Erhalten Sie Nachrichten von CCI",
+          "Register": "Registrieren",
+          "Select": "Auswählen",
+          "Back": "Zurück",
+          "Edit_profile": "Profil bearbeiten"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Passwort vergessen?",
+          "Email": "Email",
+          "Send_email": "E-Mail senden",
+          "Dont_have_an_account": "Hast du kein Konto?",
+          "Register_now": "Jetzt registrieren"
+        },
+        "Map": {
+          "Search": "Suche",
+          "Allow_app_access": "Ermöglichen Sie der App, auf den Standort des Geräts zuzugreifen?",
+          "Allow": "Ermöglichen",
+          "Not_allow": "Nicht erlauben",
+          "Campsites_near_you": "Campingplätze in Ihrer Nähe",
+          "Campsites": "Campingplätze",
+          "Digital_card": "Digitale Karte",
+          "Redefine_your_search": "Definieren Sie Ihre Suche neu",
+          "Country": "Land",
+          "Category": "Kategorie",
+          "Discount": "Rabatt",
+          "Clear_all": "Alles löschen",
+          "Apply": "Anwenden",
+          "Results": "Ergebnisse",
+          "Map": "Karte",
+          "Book_now": "Buchen Sie jetzt",
+          "Bank_insurance": "Bank & Versicherung",
+          "Bars_restaurants": "Bars & Restaurants",
+          "Books_newspapers": "Bücher & Zeitungen",
+          "Caravans_motorcaravans": "Wohnwagen & Wohnwagen",
+          "Children": "Kinder",
+          "Clothes_fashion": "Kleidung & Mode",
+          "Sport_hobbies": "Sport & Hobbys",
+          "Technics_stuff": "Technik & Sachen",
+          "Travel_adventure": "Reisen & Abenteuer",
+          "Select_all": "Wählen Sie Alle"
+        },
+        "MapDetail": {
+          "Book_now": "Buchen Sie jetzt",
+          "Other_Disconts": "Andere Disconts"
+        },
+        "Profile": {
+          "Profile": "Profil",
+          "Digital_card": "Digitale Karte",
+          "Help": "Hilfe",
+          "Contacts": "Kontakte",
+          "Campsites": "Campingplätze",
+          "Address": "Adress"
+        },
+        "DigitalCard": {
+          "Name": "Name",
+          "Address": "Adress",
+          "Birth": "Geburt",
+          "Passport": "Reisepass",
+          "Issue": "Problem",
+          "Member": "Mitglied",
+          "Nacionality": "Nacionality",
+          "Validity": "Gültigkeit",
+          "Front_card": "Frontkarte",
+          "Back_card": "Rückkarte"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Erforderlich Abgelegt!",
+          "Minimum_6_digits": "Mindestens 6 Stellen!",
+          "Password_do_not_match": "PassPasswort stimmt nicht überein!",
+          "Please_write_your_email": "Bitte schreiben Sie Ihre E-Mail!",
+          "Please_confirm_your_password": "Bitte bestätigen Sie Ihr Passwort!",
+          "Please_write_your_name": "Bitte schreiben Sie Ihren Namen!",
+          "Please_write_your_password": "Bitte schreiben Sie Ihr Passwort!",
+          "Please_write_valid_email": "Bitte schreiben Sie eine gültige E-Mail!",
+          "Please_write_security_question": "Bitte schreiben Sie eine Sicherheitsfrage!",
+          "Please_write_security_answer": "Bitte schreiben Sie eine Sicherheitsantwort!",
+          "Please_write_your_card_number": "Bitte schreiben Sie Ihre Kartennummer!",
+          "Please_write_a_valid_card_number": "Bitte schreiben Sie Ihre Kartennummer!",
+          "Please_select_your_language": "Bitte wählen Sie Ihre Sprache!",
+          "Please_select_a_date": "Bitte wählen Sie ein Datum!",
+          "Please_select_a_valid_date": "Bitte wähle ein gültiges Datum aus!",
+          "Please_select_your_country": "Bitte wählen Sie Ihr Land!"
+        }
       },
-      "SideBarScreen": {
-        "Recovery_password": "Recovery Password",
-        "Check_your_email": "To recover your password please check your email",
-        "Invalid_Password": "Invalid Password",
-        "Create_an_Account": "Please create a new account",
-        "Account_Created_with_Sucusse": "Account Created with Sucusse",
-        "Created_Account_fail": "Invalid Fields, please try again"
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  } else if (lang === 'IT') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Ottieni sconti in",
+          "Campsites_in": "campeggi in",
+          "Countries": "paesi"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Ruota il dispositivo in verticale",
+          "App_support_portrait": "Questa app supporta solo la modalità verticale",
+          "Please_open_mobile_device": "Si prega di aprire su un dispositivo mobile"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Pagina non affezionata",
+          "Go_back": "Torna indietro"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Password di ripristino",
+          "Check_your_email_recover": "Per recuperare la tua password controlla la tua email",
+          "Check_your_email_verification": "Controlla la tua casella di posta elettronica per verificare il tuo account,",
+          "Invalid_email": "E-mail non valido!",
+          "Invalid_fields": "Campi non validi",
+          "Please_try_again": "Per favore riprova!",
+          "Create_an_account": "Crea un nuovo account",
+          "Account_created_with_success": " Account creato con successo",
+          "Created_account_fail": "Impossibile creare un account"
+        },
+        "Login": {
+          "Welcome_back": "Ben Tornato!",
+          "Email": "Email",
+          "Password": "Parola d'ordine",
+          "Language": "Linguaggio",
+          "Select": "Selezionare",
+          "Login": "Accesso",
+          "Forgot_password": "Ha dimenticato la password?",
+          "Dont_have_an_account": "Non hai un account ?",
+          "Register_now": "Iscriviti ora"
+        },
+        "Sign_up": {
+          "Sign_up": "Iscriviti",
+          "Name": "Nome",
+          "Email": "Email",
+          "Password": "Parola d'ordine",
+          "Confirm_password": "Conferma Parola d'ordine ",
+          "Password_question": "Parola d'ordine Domanda",
+          "Password_answwer": "Parola d'ordine Risposta",
+          "Next": "Il prossimo",
+          "Club": "Club",
+          "Card_number": "Numero di carta",
+          "Expiration_date": "Data di scadenza",
+          "Country": "Nazione",
+          "Language": "Linguaggio",
+          "Receive_news_from_cci": "Ricevi notizie da CCI",
+          "Register": "Registrati",
+          "Select": "Selezionare",
+          "Back": "Indietro",
+          "Edit_profile": "Modifica Profilo"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Ha dimenticato la password?",
+          "Email": "Email",
+          "Send_email": "Invia una email",
+          "Dont_have_an_account": "Non hai un account ?",
+          "Register_now": "Iscriviti ora"
+        },
+        "Map": {
+          "Search": "Ricerca",
+          "Allow_app_access": "Consentire all'app di accedere alla posizione del dispositivo ?",
+          "Allow": "Permettere",
+          "Not_allow": "Non consentire",
+          "Campsites_near_you": "Campeggi vicino a te",
+          "Campsites": "Campeggi",
+          "Digital_card": "Carta digitale",
+          "Redefine_your_search": "Ridefinisci la tua ricerca",
+          "Country": "Nazione",
+          "Category": "Categoria",
+          "Discount": "Sconto",
+          "Clear_all": "Cancella tutto",
+          "Apply": "Applicare",
+          "Results": "Risultati",
+          "Map": "Carta geografica",
+          "Book_now": "Prenota ora",
+          "Bank_insurance": "Banca & Assicurazioni",
+          "Bars_restaurants": "Bar & Ristoranti",
+          "Books_newspapers": "Libri & Gornali",
+          "Caravans_motorcaravans": "Roulotte & Camper",
+          "Children": "Bambini",
+          "Clothes_fashion": "Abbigliamento & Moda",
+          "Sport_hobbies": "Sport & Passatempo",
+          "Technics_stuff": "Tecniche & Roba",
+          "Travel_adventure": "Viaggi & Avventura",
+          "Select_all": "Seleziona tutto"
+        },
+        "MapDetail": {
+          "Book_now": "Prenota ora",
+          "Other_Disconts": "Altri disagi"
+        },
+        "Profile": {
+          "Profile": "Profilo",
+          "Digital_card": "Carta digitale",
+          "Help": "Aiuto",
+          "Contacts": "Contatti",
+          "Campsites": "Campeggi",
+          "Address": "Indirizzo"
+        },
+        "DigitalCard": {
+          "Name": "Nome",
+          "Address": "Indirizzo",
+          "Birth": "Nascita",
+          "Passport": "Passaporto",
+          "Issue": "Problema",
+          "Member": "Membro",
+          "Nacionality": "Nazionalità",
+          "Validity": "Validità",
+          "Front_card": "Carta Frontale",
+          "Back_card": "Carta sul Retro"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Richiesto archiviato!",
+          "Minimum_6_digits": "Minimo 6 cifre!",
+          "Password_do_not_match": "La password non coincide!",
+          "Please_write_your_email": "Scrivi la tua email!",
+          "Please_confirm_your_password": "Conferma la tua password!",
+          "Please_write_your_name": "Per favore scrivi il tuo nome!",
+          "Please_write_your_password": "Scrivi la tua password!",
+          "Please_write_valid_email": "Scrivi un'e-mail valida!",
+          "Please_write_security_question": "Scrivi una domanda di sicurezza!",
+          "Please_write_security_answer": "Scrivi una risposta di sicurezza!",
+          "Please_write_your_card_number": "Scrivi il tuo numero di carta!",
+          "Please_write_a_valid_card_number": "Scrivi il tuo numero di carta!",
+          "Please_select_your_language": "Seleziona la tua lingua!",
+          "Please_select_a_date": "Seleziona una data!",
+          "Please_select_a_valid_date": "Seleziona una data valida!",
+          "Please_select_your_country": "Selezionare il proprio paese!"
+        }
       },
-      "Login": {
-        "Welcome_back": "Welcome back!",
-        "Email": "Email",
-        "Password": "Password",
-        "Language": "Language",
-        "Select": "Select",
-        "Login": "Login",
-        "Forgot_password": "Forgot password?",
-        "Dont_have_an_account": "Don´t have an account?",
-        "Register_now": "Register now"
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  } else if (lang === 'ES') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Obtenga descuentos en",
+          "Campsites_in": "campings en",
+          "Countries": "países"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Gire su dispositivo a retrato",
+          "App_support_portrait": "Esta aplicación solo admite el modo retrato",
+          "Please_open_mobile_device": "Abra en un dispositivo móvil"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Página no aficionada,",
+          "Go_back": "Regresa"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Contraseña de recuperación",
+          "Check_your_email_recover": "Para recuperar su contraseña, consulte su correo electrónico",
+          "Check_your_email_verification": "Marque su casilla de correo electrónico para verificar su cuenta",
+          "Invalid_email": "¡Email inválido!",
+          "Invalid_fields": "Campos no válidos",
+          "Please_try_again": "¡Inténtalo de nuevo!",
+          "Create_an_account": "Cree una nueva cuenta",
+          "Account_created_with_success": "Cuenta creada con éxito",
+          "Created_account_fail": "Error al crear una cuenta"
+        },
+        "Login": {
+          "Welcome_back": "¡Bienvenido de nuevo!",
+          "Email": "Email",
+          "Password": "Contraseña",
+          "Language": "Idioma",
+          "Select": "Seleccione",
+          "Login": "Iniciar sesión",
+          "Forgot_password": "Se te olvidó tu contraseña?",
+          "Dont_have_an_account": "No tienes cuenta?",
+          "Register_now": "Regístrate ahora"
+        },
+        "SignUp": {
+          "Sign_up": "Regístrate",
+          "Name": "Nombre",
+          "Email": "Email",
+          "Password": "Contraseña",
+          "Confirm_password": "Confirmar contraseña",
+          "Password_question": "Pregunta secreta",
+          "Password_answwer": "Contraseña Anwser",
+          "Next": "Siguiente",
+          "Club": "Club",
+          "Card_number": "Número de tarjeta",
+          "Expiration_date": "Fecha de caducidad",
+          "Country": "País",
+          "Language": "Idioma",
+          "Receive_news_from_cci": "Recibir noticias de CCI",
+          "Register": "Registrarse",
+          "Select": "Seleccione",
+          "Back": "Atrás",
+          "Edit_profile": "Editar perfil"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Se te olvidó tu contraseña?",
+          "Email": "Email",
+          "Send_email": "Enviar correo electrónico",
+          "Dont_have_an_account": "No tienes cuenta?",
+          "Register_now": "Regístrate ahora"
+        },
+        "Map": {
+          "Search": "Buscar",
+          "Allow_app_access": "Permitir que la aplicación acceda a la ubicación del dispositivo?",
+          "Allow": "Permitir",
+          "Not_allow": "No permitido",
+          "Campsites_near_you": "Campings cerca de ti",
+          "Campsites": "Campings",
+          "Digital_card": "Tarjeta digital",
+          "Redefine_your_search": "Redefina su búsqueda",
+          "Country": "País",
+          "Category": "Categoría",
+          "Discount": "Descuento",
+          "Clear_all": "Limpiar todo",
+          "Apply": "Aplicar",
+          "Results": "Resultados",
+          "Map": "Mapa",
+          "Book_now": "Reservar ahora",
+          "Bank_insurance": "Banca y Seguros",
+          "Bars_restaurants": "Bares y restaurantes",
+          "Books_newspapers": "Libros y periódicos",
+          "Caravans_motorcaravans": "Caravanas y Autocaravanas,",
+          "Children": "Niños",
+          "Clothes_fashion": "Ropa y moda",
+          "Sport_hobbies": "Deporte y pasatiempos",
+          "Technics_stuff": "Técnicas y demás",
+          "Travel_adventure": " Viajes y aventuras",
+          "Select_all": "Seleccionar todo"
+        },
+        "MapDetail": {
+          "Book_now": "Reservar ahora",
+          "Other_Disconts": "Otros descontentos"
+        },
+        "Profile": {
+          "Profile": "Perfil",
+          "Digital_card": "Tarjeta digital",
+          "Help": "Ayuda",
+          "Contacts": "Contactos",
+          "Campsites": "Campings",
+          "Address": "Habla a"
+        },
+        "DigitalCard": {
+          "Name": "Nombre",
+          "Address": "Habla a",
+          "Birth": "Nacimiento",
+          "Passport": "Pasaporte",
+          "Issue": "Problema",
+          "Member": "Miembro",
+          "Nacionality": "Nacionalidad",
+          "Validity": "Validez",
+          "Front_card": "Tarjeta frontal",
+          "Back_card": "Tarjeta trasera"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Requerido Archivado!",
+          "Minimum_6_digits": "Mínimo 6 dígitos!",
+          "Password_do_not_match": "La contraseña no coincide!",
+          "Please_write_your_email": "Por favor escriba su correo electrónico!",
+          "Please_confirm_your_password": "Por favor, confirme su contraseña!",
+          "Please_write_your_name": "Por favor escriba su nombre!",
+          "Please_write_your_password": "Por favor escriba su contraseña",
+          "Please_write_valid_email": "Por favor escriba un e-mail valido!",
+          "Please_write_security_question": "Escriba una pregunta de seguridad!",
+          "Please_write_security_answer": "Por favor escriba una respuesta de seguridad!",
+          "Please_write_your_card_number": "Escriba su número de tarjeta!",
+          "Please_write_a_valid_card_number": "Escriba su número de tarjeta!",
+          "Please_select_your_language": "Seleccione su idioma!",
+          "Please_select_a_date": "Seleccione una fecha!",
+          "Please_select_a_valid_date": "Por favor seleccione una fecha valida!",
+          "Please_select_your_country": "Por favor seleccione su país!!"
+        }
       },
-      "SignUp": {
-        "Sign_up": "Sign Up",
-        "Name": "Name",
-        "Email": "Email",
-        "Password": "Password",
-        "Confirm_password": "Confirm password",
-        "Password_question": "Password Question",
-        "Password_answwer": "Password Anwser",
-        "Next": "Next",
-        "Club": "Club",
-        "Card_number": "Card Number",
-        "Expiration_date": "Expiration Date",
-        "Country": "Country",
-        "Language": "Language",
-        "Receive_news_from_cci": "Receive News From CCI",
-        "Register": "Register",
-        "Select": "Select",
-        "Back": "Back"
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  } else if (lang === 'NL') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Krijg kortingen in",
+          "Campsites_in": "campings in",
+          "Countries": "landen"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Draai uw apparaat naar portret",
+          "App_support_portrait": "Deze app ondersteunt alleen de portretmodus",
+          "Please_open_mobile_device": "Open op een mobiel apparaat"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Pagina niet dol",
+          "Go_back": "Ga terug"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Herstelwachtwoord",
+          "Check_your_email_recover": "Controleer uw e-mail om uw wachtwoord te herstellen",
+          "Check_your_email_verification": "Controleer uw e-mailbox om uw account te verifiëren",
+          "Invalid_email": "Ongeldig e-mail!",
+          "Invalid_fields": "Ongeldige velden",
+          "Please_try_again": "Probeer het opnieuw!",
+          "Create_an_account": "Maak een nieuw account aan",
+          "Account_created_with_success": "Account gemaakt met succes",
+          "Created_account_fail": "Kan geen account maken"
+        },
+        "Login": {
+          "Welcome_back": "Welkom terug!",
+          "Email": "Email",
+          "Password": "Wachtwoord",
+          "Language": "Taal",
+          "Select": "Selecteer",
+          "Login": "Log in",
+          "Forgot_password": "Wachtwoord vergeten?",
+          "Dont_have_an_account": "Heeft u geen account ?",
+          "Register_now": "Registreer nu"
+        },
+        "SignUp": {
+          "Sign_up": "Aanmelden",
+          "Name": "Naam",
+          "Email": "Email",
+          "Password": "Wachtwoord",
+          "Confirm_password": "Bevestig Wachtwoord",
+          "Password_question": "Wachtwoordvraag",
+          "Password_answwer": "Wachtwoord antwoord",
+          "Next": "De volgende",
+          "Club": "Club",
+          "Card_number": "Kaartnummer",
+          "Expiration_date": "Uiterste houdbaarheidsdatum",
+          "Country": "Land",
+          "Language": "Taal",
+          "Receive_news_from_cci": "Ontvang nieuws van CCI",
+          "Register": "Registreren",
+          "Select": "Selecteer",
+          "Back": "Terug",
+          "Edit_profile": "Bewerk profiel"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Wachtwoord vergeten?",
+          "Email": "Email",
+          "Send_email": "Email verzenden",
+          "Dont_have_an_account": "Heeft u geen account ?",
+          "Register_now": "Registreer nu"
+        },
+        "Map": {
+          "Search": "Zoeken",
+          "Allow_app_access": "De app toegang geven tot de locatie van het apparaat ?",
+          "Allow": "Toestaan",
+          "Not_allow": "Niet toelaten",
+          "Campsites_near_you": "Campings bij jou in de buurt",
+          "Campsites": "Campings",
+          "Digital_card": "Digitale kaart",
+          "Redefine_your_search": "Herdefinieer uw zoekopdracht",
+          "Country": "Land",
+          "Category": "Categorie",
+          "Discount": "Korting",
+          "Clear_all": "Wis alles",
+          "Apply": "Van toepassing zijn",
+          "Results": "Resultaten",
+          "Map": "Kaart",
+          "Book_now": "Boek nu",
+          "Bank_insurance": "Bank & Verzekering",
+          "Bars_restaurants": "Bars & Restaurants",
+          "Books_newspapers": "Boeken & Kranten",
+          "Caravans_motorcaravans": "Caravans & Campers",
+          "Children": "Kinderen",
+          "Clothes_fashion": "Kleding & Mode",
+          "Sport_hobbies": "Sport & Hobby's",
+          "Technics_stuff": "Techniek & Spullen",
+          "Travel_adventure": "Reizen & Avontuur",
+          "Select_all": "Selecteer alles"
+        },
+        "MapDetail": {
+          "Book_now": "Boek nu",
+          "Other_Disconts": "Andere disconts"
+        },
+        "Profile": {
+          "Profile": "Profiel",
+          "Digital_card": "Digitale kaart",
+          "Help": "Helpen",
+          "Contacts": "Contacten",
+          "Campsites": "Campings",
+          "Address": "Adres"
+        },
+        "DigitalCard": {
+          "Name": "Naam",
+          "Address": "Adres",
+          "Birth": "Geboorte",
+          "Passport": "Paspoort",
+          "Issue": "Kwestie",
+          "Member": "Lid",
+          "Nacionality": "Nacionaliteit",
+          "Validity": "Geldigheid",
+          "Front_card": "Voorste kaart",
+          "Back_card": "Achterkaart"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Vereist ingediend !",
+          "Minimum_6_digits": "Minimaal 6 cijfers !",
+          "Password_do_not_match": "Wachtwoord komt niet overeen!",
+          "Please_write_your_email": "Schrijf uw e-mail!",
+          "Please_confirm_your_password": "Bevestig alstublieft uw wachtwoord!",
+          "Please_write_your_name": " Bevestig alstublieft uw wachtwoord!",
+          "Please_write_your_password": "Schrijf alstublieft uw naam!",
+          "Please_write_valid_email": "Schrijf uw wachtwoord!",
+          "Please_write_security_question": "Schrijf een geldige e-mail!",
+          "Please_write_security_answer": "Schrijf een beveiligingsvraag!",
+          "Please_write_your_card_number": "Schrijf een beveiligingsantwoord!",
+          "Please_write_a_valid_card_number": "Geef uw kaartnummer op!",
+          "Please_select_your_language": "Selecteer uw taal!",
+          "Please_select_a_date": "Selecteer een datum!",
+          "Please_select_a_valid_date": "Selecteer een geldige datum alstublieft!",
+          "Please_select_your_country": "Selecteer uw land alstublieft!"
+        }
       },
-      "ForgotPassword": {
-        "Forgot_password": "Forgot Password?",
-        "Email": "Email",
-        "Send_email": "Send Email",
-        "Dont_have_an_account": "Don´t have an account?",
-        "Register_now": "Register now"
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  } else if (lang === 'SK') {
+    res.json({
+      "Translates": {
+        "OnboardScreen": {
+          "CampsitesTotal": 3197,
+          "CountriesTotal": 40,
+          "Get_discounts_in": "Získajte zľavy v",
+          "Campsites_in": "kempingy v",
+          "Countries": "krajiny"
+        },
+        "SwipeScreen": {
+          "Please_rotate_device": "Otočte zariadenie na výšku",
+          "App_support_portrait": "Táto aplikácia podporuje iba režim na výšku",
+          "Please_open_mobile_device": "Otvorte prosím na mobilnom zariadení"
+        },
+        "NotFoundScreen": {
+          "Page_not_fond": "Stránka nemá rada",
+          "Go_back": "Vráť sa"
+        },
+        "SideBarScreen": {
+          "Recovery_password": "Obnovovacie heslo",
+          "Check_your_email_recover": "Ak chcete získať späť svoje heslo",
+          "Check_your_email_verification": "Skontrolujte svoj e-mail a overte svoj účet",
+          "Invalid_email": "Neplatný email!",
+          "Invalid_fields": "Neplatné polia",
+          "Please_try_again": "Prosím skúste znova!",
+          "Create_an_account": "Vytvorte si nový účet",
+          "Account_created_with_success": "účet bol úspešne vytvorený,",
+          "Created_account_fail": "Vytvorenie účtu zlyhalo"
+        },
+        "Login": {
+          "Welcome_back": "Vitaj späť!",
+          "Email": "Email",
+          "Password": "Heslo",
+          "Language": "Jazyk",
+          "Select": "Vyberte",
+          "Login": "Prihlásiť sa",
+          "Forgot_password": "Zabudol si heslo?",
+          "Dont_have_an_account": "Nemáte účet?",
+          "Register_now": "Zaregistrujte sa hneď"
+        },
+        "SignUp": {
+          "Sign_up": "Prihlásiť Se",
+          "Name": "Názov",
+          "Email": "Email",
+          "Password": "Heslo",
+          "Confirm_password": "Potvrďte heslo",
+          "Password_question": "Otázka na heslo",
+          "Password_answwer": "Heslo Anwser",
+          "Next": "Ďalšie",
+          "Club": "klub",
+          "Card_number": "Číslo karty",
+          "Expiration_date": "Dátum spotreby",
+          "Country": "Krajina",
+          "Language": "Jazyk",
+          "Receive_news_from_cci": "Dostávať správy z CCI",
+          "Register": "Registrovať",
+          "Select": "Vyberte",
+          "Back": "Späť",
+          "Edit_profile": "Upraviť profil"
+        },
+        "ForgotPassword": {
+          "Forgot_password": "Zabudol si heslo?",
+          "Email": "Email",
+          "Send_email": "Poslať email",
+          "Dont_have_an_account": "Nemáte účet?",
+          "Register_now": "Zaregistrujte sa hneď"
+        },
+        "Map": {
+          "Search": "Vyhľadávanie",
+          "Allow_app_access": "Povoliť aplikácii prístup k polohe zariadenia ?",
+          "Allow": "Povoliť",
+          "Not_allow": "Nepovoliť",
+          "Campsites_near_you": "kempy vo vašej blízkosti",
+          "Campsites": "kempingy",
+          "Digital_card": "Digitálna karta",
+          "Redefine_your_search": "Predefinujte svoje hľadanie",
+          "Country": "Krajina",
+          "Category": "Kategória",
+          "Discount": "Zľava",
+          "Clear_all": "Zmazať všetko",
+          "Apply": "Podať žiadosť",
+          "Results": "Výsledky",
+          "Map": "Mapa",
+          "Book_now": "Rezervovať",
+          "Bank_insurance": "Banka a poistenie",
+          "Bars_restaurants": "Bary a reštaurácie",
+          "Books_newspapers": "nihy a noviny",
+          "Caravans_motorcaravans": "Karavany a karavany",
+          "Children": "deti",
+          "Clothes_fashion": "oblečenie a móda",
+          "Sport_hobbies": "Šport a koníčky",
+          "Technics_stuff": "Technika a veci",
+          "Travel_adventure": "Cestovanie a dobrodružstvo",
+          "Select_all": "Vybrať všetko"
+        },
+        "MapDetail": {
+          "Book_now": "Rezervovať",
+          "Other_Disconts": "Iné diskotéky"
+        },
+        "Profile": {
+          "Profile": "Profil",
+          "Digital_card": "Digitálna karta",
+          "Help": "Pomoc",
+          "Contacts": "Kontakty",
+          "Campsites": "kempingy",
+          "Address": "adresa"
+        },
+        "DigitalCard": {
+          "Name": "Názov",
+          "Address": "Adresa",
+          "Birth": "Narodenie",
+          "Passport": "Cestovný pas",
+          "Issue": "Problém",
+          "Member": "Národnosť",
+          "Nacionality": "Národnosť",
+          "Validity": "Platnosť",
+          "Front_card": "Predná karta",
+          "Back_card": "Zadná karta"
+        },
+        "ErrorMessages": {
+          "Required_filed": "Povinné podanie!",
+          "Minimum_6_digits": "Minimálne 6 číslic!",
+          "Password_do_not_match": "Heslo sa nezhoduje!",
+          "Please_write_your_email": "Prosím, napíšte svoj e-mail!",
+          "Please_confirm_your_password": "Potvrďte svoje heslo!",
+          "Please_write_your_name": "Prosím, napíš svoje meno!",
+          "Please_write_your_password": "Prosím, napíšte svoje heslo!",
+          "Please_write_valid_email": "Prosím, napíšte platný e-mail!",
+          "Please_write_security_question": "Napíšte bezpečnostnú otázku!",
+          "Please_write_security_answer": "Napíšte bezpečnostnú odpoveď!",
+          "Please_write_your_card_number": "Prosím, napíšte číslo svojej karty!",
+          "Please_write_a_valid_card_number": "Prosím, napíšte číslo svojej karty!",
+          "Please_select_your_language": "Vyberte si svoj jazyk!",
+          "Please_select_a_date": "Vyberte dátum!",
+          "Please_select_a_valid_date": "Vyberte platný dátum!",
+          "Please_select_your_country": "Vyberte svoju krajinu!!"
+        }
       },
-      "Map": {
-        "Search": "Search",
-        "Allow_app_access": "Allow the app to access the device's location?",
-        "Allow": "Allow",
-        "Not_allow": "Not allow",
-        "Campsites_near_you": "Campsites near you",
-        "Campsites": "Campsites",
-        "Digital_card": "Digital Card",
-        "Redefine_your_search": "Redefine your search",
-        "Country": "Country",
-        "Category": "Category",
-        "Discount": "Discount",
-        "Clear_all": "Clear All",
-        "Apply": "Apply",
-        "Results": "Results",
-        "Map": "Map",
-        "Book_now": "Book now",
-        "Bank_insurance": "Bank & Insurance",
-        "Bars_restaurants": "Bars & Restaurants",
-        "Books_newspapers": "Books & Newspapers",
-        "Caravans_motorcaravans": "Caravans & Motorcaravans",
-        "Children": "Children",
-        "Clothes_fashion": "Clothes & Fashion",
-        "Sport_hobbies": "Sport & Hobbies",
-        "Technics_stuff": "Technics & Stuff",
-        "Travel_adventure": "Travel & Adventure",
-        "Select_all": "Select All"
-      },
-      "Profile": {
-        "Profile": "Profile",
-        "Digital_card": "Digital card",
-        "Help": "Help",
-        "Contacts": "Contacts",
-        "Front_card": "Front Card",
-        "Back_card": "Back Card",
-        "Campsites": "Campsites",
-        "How_to_reset_my_password?": "How to reset my password?",
-        "How_to_get_my_CCI?": "How to get my CCI?",
-        "Address": "Address"
-      },
-      "ErrorMessages": {
-        "Required_filed": "Required Filed!",
-        "Minimum_6_digits": "Minimum 6 digits!",
-        "Password_do_not_match": "Password do not match!",
-        "Please_write_your_email": "Please write your email!",
-        "Please_confirm_your_password": "Please confirm your password!",
-        "Please_write_your_name": "Please write your name!",
-        "Please_write_your_password": "Please write your password!",
-        "Please_write_valid_email": "Please write a Valid Email!",
-        "Please_write_security_question": "Please write a security question!",
-        "Please_write_security_answer": "Please write a security answer!",
-        "Please_write_your_card_number": "Please write your Card Number!",
-        "Please_write_a_valid_card_number": "Please write your Card Number!",
-        "Please_select_your_language": "Please select your Language!",
-        "Please_select_a_date": "Please select a Date!",
-        "Please_select_a_valid_date": "Please select a valid Date!",
-        "Please_select_your_country": "Please select your Country!"
-      }
-    },
-    "languagesList": [{
-      "value": "399",
-      "label": "English"
-    }, {
-      "value": "400",
-      "label": "Fraçais"
-    }, {
-      "value": "401",
-      "label": "Deutsch"
-    }, {
-      "value": "402",
-      "label": "Italian"
-    }, {
-      "value": "403",
-      "label": "Español"
-    }, {
-      "value": "404",
-      "label": "Nederla"
-    }, {
-      "value": "405",
-      "label": "Svenska"
-    }]
-  });
+      "languagesList": [{
+        "value": "399",
+        "label": "English"
+      }, {
+        "value": "400",
+        "label": "Fraçais"
+      }, {
+        "value": "401",
+        "label": "Deutsch"
+      }, {
+        "value": "402",
+        "label": "Italian"
+      }, {
+        "value": "403",
+        "label": "Español"
+      }, {
+        "value": "404",
+        "label": "Nederla"
+      }, {
+        "value": "405",
+        "label": "Svenska"
+      }]
+    });
+  }
 });
 router.get("/signup", (req, res) => {
   res.json({
@@ -22708,7 +23699,690 @@ router.get("/signup", (req, res) => {
     }]
   });
 });
-router.post("/login", function (req, res) {
+router.get("/help", (req, res) => {
+  res.json([{
+    "id": "1",
+    "title": "How to reset my password?",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+  }, {
+    "id": "2",
+    "title": "How to get my CCI?",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+  }, {
+    "id": "3",
+    "title": "How to reset my password?",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+  }, {
+    "id": "4",
+    "title": "How to get my CCI?",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt scelerisque turpis. Morbi non justo dolor. Proin non diam vulputate, mollis nisl et, fringilla ipsum. Nulla id bibendum ex."
+  }]);
+});
+router.get("/users", (req, res) => {
+  res.json({
+    "usersList": {
+      "id": 1,
+      "name": "Joana Mendes",
+      "email": "joanamendes@shareit.dev",
+      "password": "123456",
+      "passwordQuestion": "My Favorite Color",
+      "passwordAnswer": "Green",
+      "club": "0102 - Camping und Caravaning Club Austria",
+      "cardNumber": "123456",
+      "expirationDate": "10-12-2023",
+      "country": "Austria",
+      "language": "EN",
+      "subscrive": true
+    }
+  });
+});
+router.get("/club", (req, res) => {
+  res.json({
+    "clubList": {
+      "id": 1,
+      "address": "Fédération Internationale de Camping, Caravanning et Autocaravaning A.I.S.B.L. (F.I.C.C.) - Rue Belliard 20 - BE - 1040 Bruxelles",
+      "email": "info@ficc.org",
+      "phone": "+32 2 513 87 82",
+      "website": "www.campingcardinternational.com"
+    }
+  });
+});
+router.get("/card", (req, res) => {
+  res.json({
+    "cardUserList": {
+      "id": 1,
+      "front_img": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/1bda64bc5cb949476a3cf88dc230277d/card-front.png",
+      "back_img": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/4bc8b5be06f077322875dda7bcd80c5f/card-back.png",
+      "club_logo": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/31edc9400e126c66895f081b2e324052/ccca-logo.png",
+      "club_qrcode": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/23af51e6cc9b10a347d511700337907b/qr-code.png",
+      "number": "4000 0200 0001",
+      "name": "Joana Mendes",
+      "address_street": "Estrada Nacional 242, No 12",
+      "address_local": "2450-138 Nazaré, Portugal",
+      "birth_date": "01/10/2020",
+      "birth_place": "Nazaré",
+      "passport": "1234567890",
+      "issue_date": "01/10/2020",
+      "issue_place": "Nazaré",
+      "member": "CCI123",
+      "nacionality": "Potuguese",
+      "validity": "16/19/2020"
+    }
+  });
+});
+router.get("/campsites", (req, res) => {
+  res.json({
+    "campSites": [{
+      "entity_id": "6867",
+      "data_name": "Vidoeiro Ger&#234;s Camping &amp;#8211; Kitur",
+      "data_country": "Portugal",
+      "data_latitude": 41.7017885,
+      "data_longitude": -8.168288500000017,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "20"
+    }, {
+      "entity_id": "6905",
+      "data_name": "Clube de Campismo e Caravanismo de Torres Vedras",
+      "data_country": "Portugal",
+      "data_latitude": 39.133549078316065,
+      "data_longitude": -9.374857379870605,
+      "data_image": "",
+      "data_hs_discount": "20",
+      "data_ls_discount": "20"
+    }, {
+      "entity_id": "8116",
+      "data_name": "NaturWaterPark",
+      "data_country": "Portugal",
+      "data_latitude": 41.195,
+      "data_longitude": -7.7783,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "15"
+    }, {
+      "entity_id": "5898",
+      "data_name": "Costa do Vizir",
+      "data_country": "Portugal",
+      "data_latitude": 37.8569142,
+      "data_longitude": -8.786401699999942,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "5924",
+      "data_name": "Camping Albufeira",
+      "data_country": "Portugal",
+      "data_latitude": 37.106344717038546,
+      "data_longitude": -8.25350046157837,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6026",
+      "data_name": "ISTAS&amp;#8217; Garden",
+      "data_country": "Portugal",
+      "data_latitude": 41.10814413723054,
+      "data_longitude": -8.646616703257223,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6100",
+      "data_name": "Figueira",
+      "data_country": "Portugal",
+      "data_latitude": 37.07307921649633,
+      "data_longitude": -8.845646700219731,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6232",
+      "data_name": "Parque de Campismo Peniche Praia Bungalows &amp;amp; Campers",
+      "data_country": "Portugal",
+      "data_latitude": 39.36867489999999,
+      "data_longitude": -9.380962100000033,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6306",
+      "data_name": "ORBITUR MONTARGIL",
+      "data_country": "Portugal",
+      "data_latitude": 39.062496,
+      "data_longitude": -8.172485999999935,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6308",
+      "data_name": "ORBITUR S. PEDRO DE MOEL",
+      "data_country": "Portugal",
+      "data_latitude": 39.7586099,
+      "data_longitude": -9.026003500000002,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6310",
+      "data_name": "ORBITUR VIANA DO CASTELO",
+      "data_country": "Portugal",
+      "data_latitude": 41.6786122,
+      "data_longitude": -8.826389100000029,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6312",
+      "data_name": "ORBITUR VALVERDE / LAGOS",
+      "data_country": "Portugal",
+      "data_latitude": 37.1012273,
+      "data_longitude": -8.718523399999981,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6314",
+      "data_name": "ORBITUR VALADO / NAZAR&#201;",
+      "data_country": "Portugal",
+      "data_latitude": 39.3552,
+      "data_longitude": -9.032199999999989,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6316",
+      "data_name": "ORBITUR VAGUEIRA",
+      "data_country": "Portugal",
+      "data_latitude": 40.3329,
+      "data_longitude": -8.444299999999998,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6318",
+      "data_name": "ORBITUR SITAVA MILFONTES",
+      "data_country": "Portugal",
+      "data_latitude": 37.7319,
+      "data_longitude": -8.78303,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6320",
+      "data_name": "ORBITUR SAGRES",
+      "data_country": "Portugal",
+      "data_latitude": 37.0246458,
+      "data_longitude": -8.94626960000005,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6322",
+      "data_name": "ORBITUR S. JACINTO",
+      "data_country": "Portugal",
+      "data_latitude": 40.8791419,
+      "data_longitude": -8.620760300000029,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6324",
+      "data_name": "ORBITUR MIRA",
+      "data_country": "Portugal",
+      "data_latitude": 40.4448522,
+      "data_longitude": -8.80042800000001,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6326",
+      "data_name": "ORBITUR GALA / FIGUEIRA DA FOZ",
+      "data_country": "Portugal",
+      "data_latitude": 40.1185069,
+      "data_longitude": -8.856259899999941,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6328",
+      "data_name": "ORBITUR &#201;VORA",
+      "data_country": "Portugal",
+      "data_latitude": 38.3921304,
+      "data_longitude": -8.153597699999978,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6330",
+      "data_name": "ORBITUR ANGEIRAS",
+      "data_country": "Portugal",
+      "data_latitude": 41.2684898,
+      "data_longitude": -8.720243699999969,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6332",
+      "data_name": "ORBITUR COSTA DE CAPARICA",
+      "data_country": "Portugal",
+      "data_latitude": 38.6497993,
+      "data_longitude": -9.23602260000007,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6334",
+      "data_name": "ORBITUR CANIDELO",
+      "data_country": "Portugal",
+      "data_latitude": 41.0729,
+      "data_longitude": -8.395899999999983,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6336",
+      "data_name": "ORBITUR CAMINHA",
+      "data_country": "Portugal",
+      "data_latitude": 41.52,
+      "data_longitude": -8.513000000000034,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6444",
+      "data_name": "Parque Cerdeira",
+      "data_country": "Portugal",
+      "data_latitude": 41.76320399999999,
+      "data_longitude": -8.189771999999948,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6711",
+      "data_name": "Trilhos do Sol",
+      "data_country": "Portugal",
+      "data_latitude": 39.24507819999999,
+      "data_longitude": -8.576565800000026,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6739",
+      "data_name": "Quinta de Pentieiros",
+      "data_country": "Portugal",
+      "data_latitude": 41.7647333,
+      "data_longitude": -8.582740699999931,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "6917",
+      "data_name": "G&#243;is Camping",
+      "data_country": "Portugal",
+      "data_latitude": 40.1546761,
+      "data_longitude": -8.11350630000004,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "7268",
+      "data_name": "Lisboa Camping &amp;amp; Bungalows",
+      "data_country": "Portugal",
+      "data_latitude": 38.7289375,
+      "data_longitude": -9.209263299999975,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "7806",
+      "data_name": "Freixial",
+      "data_country": "Portugal",
+      "data_latitude": 40.1137058,
+      "data_longitude": -7.120397300000036,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "7928",
+      "data_name": "Alverangel",
+      "data_country": "Portugal",
+      "data_latitude": 39.5486,
+      "data_longitude": -8.30893,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8067",
+      "data_name": "Monte Carvalhal da Rocha",
+      "data_country": "Portugal",
+      "data_latitude": 37.4952,
+      "data_longitude": -8.78667,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8082",
+      "data_name": "Quinta Rural",
+      "data_country": "Portugal",
+      "data_latitude": 41.5634,
+      "data_longitude": -7.94585,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8084",
+      "data_name": "Quinta da Cerejeira",
+      "data_country": "Portugal",
+      "data_latitude": 39.7002,
+      "data_longitude": -8.27738,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8252",
+      "data_name": "Beira Marv&#227;o Alentejo",
+      "data_country": "Portugal",
+      "data_latitude": 38.7912,
+      "data_longitude": -7.68647,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8320",
+      "data_name": "Alentejo",
+      "data_country": "Portugal",
+      "data_latitude": 38.7912,
+      "data_longitude": -7.68647,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8337",
+      "data_name": "Toca da Raposa",
+      "data_country": "Portugal",
+      "data_latitude": 40.3993,
+      "data_longitude": -7.82627,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8370",
+      "data_name": "Quinta em Galeguia",
+      "data_country": "Portugal",
+      "data_latitude": 39.7447,
+      "data_longitude": -8.31776,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8372",
+      "data_name": "Quinta do Pomarinho",
+      "data_country": "Portugal",
+      "data_latitude": 39.4002,
+      "data_longitude": -7.48532,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8647",
+      "data_name": "Turiscampo",
+      "data_country": "Portugal",
+      "data_latitude": 37.1019,
+      "data_longitude": -8.73276,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8816",
+      "data_name": "Peniche Praia Camping",
+      "data_country": "Portugal",
+      "data_latitude": 39.3696,
+      "data_longitude": -9.392,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8860",
+      "data_name": "Pelinos",
+      "data_country": "Portugal",
+      "data_latitude": 39.6382,
+      "data_longitude": -8.33709,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "8898",
+      "data_name": "Vale Paraíso Natur Park",
+      "data_country": "Portugal",
+      "data_latitude": 39.601875,
+      "data_longitude": -9.071212,
+      "data_image": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a9fd7300f4ced4198df275e235ec584b/vale-paraiso-naturpark-big.jpg",
+      "data_hs_discount": "10",
+      "data_ls_discount": "20",
+      "data_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+      "data_street": "Estrada Nacional 242 - Km 31",
+      "data_city": "2450 – 138  Nazaré",
+      "data_phone": "00351910288425",
+      "data_url": "https://campingcard.shareit.dev/en/",
+      "data_other_disconts": [{
+        "data_discont_type": "restaurant",
+        "data_disconts_name": "Restaurante O Veleiro",
+        "data_disconts_icon": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+        "data_discont_discont": "15"
+      }, {
+        "data_discont_type": "shopping",
+        "data_disconts_name": "Nazaré Shopping",
+        "data_disconts_icon": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+        "data_discont_discont": "10"
+      }, {
+        "data_discont_type": "sport",
+        "data_disconts_name": "Estadio Municipal",
+        "data_disconts_icon": "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+        "data_discont_discont": "5"
+      }]
+    }, {
+      "entity_id": "8950",
+      "data_name": "Quinta Chave Grande",
+      "data_country": "Portugal",
+      "data_latitude": 40.8227,
+      "data_longitude": -7.69609,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "9221",
+      "data_name": "Ponte das Tr&#234;s Entradas",
+      "data_country": "Portugal",
+      "data_latitude": 40.3072,
+      "data_longitude": -7.87153,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "9222",
+      "data_name": "Mark&#225;dia",
+      "data_country": "Portugal",
+      "data_latitude": 38.1838,
+      "data_longitude": -8.10359,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "9254",
+      "data_name": "Milfontes",
+      "data_country": "Portugal",
+      "data_latitude": 37.7319,
+      "data_longitude": -8.78303,
+      "data_image": "",
+      "data_hs_discount": "10",
+      "data_ls_discount": "10"
+    }, {
+      "entity_id": "7824",
+      "data_name": "Quinta do Retiro ***",
+      "data_country": "Portugal",
+      "data_latitude": 40.351625732145564,
+      "data_longitude": -7.9159194728081275,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "5"
+    }, {
+      "entity_id": "7911",
+      "data_name": "Lima-Escape Entre Ambos os Rios",
+      "data_country": "Portugal",
+      "data_latitude": 41.8239,
+      "data_longitude": -8.3175,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "5"
+    }, {
+      "entity_id": "8109",
+      "data_name": "Quinta das Laranjeiras",
+      "data_country": "Portugal",
+      "data_latitude": 37.7989,
+      "data_longitude": -25.5908,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "5"
+    }, {
+      "entity_id": "8122",
+      "data_name": "Ros&#225;rio",
+      "data_country": "Portugal",
+      "data_latitude": 38.6247,
+      "data_longitude": -7.34539,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "5"
+    }, {
+      "entity_id": "8233",
+      "data_name": "Quinta das Cegonhas",
+      "data_country": "Portugal",
+      "data_latitude": 40.5217,
+      "data_longitude": -7.54355,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "5"
+    }, {
+      "entity_id": "8582",
+      "data_name": "Silveira",
+      "data_country": "Portugal",
+      "data_latitude": 39.5262,
+      "data_longitude": -8.96575,
+      "data_image": "",
+      "data_hs_discount": "5",
+      "data_ls_discount": "5"
+    }, {
+      "entity_id": "5928",
+      "data_name": "Camping Alvor",
+      "data_country": "Portugal",
+      "data_latitude": 37.13449014156687,
+      "data_longitude": -8.589978218078613,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "5942",
+      "data_name": "Parque de Campismo Colina do Sol",
+      "data_country": "Portugal",
+      "data_latitude": 39.54,
+      "data_longitude": -9.08663,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6342",
+      "data_name": "Coja",
+      "data_country": "Portugal",
+      "data_latitude": 40.35474920000001,
+      "data_longitude": -6.953122500000063,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6410",
+      "data_name": "Castelo do Bode",
+      "data_country": "Portugal",
+      "data_latitude": 39.5402316,
+      "data_longitude": -8.319124099999954,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6412",
+      "data_name": "Foz do Mondego",
+      "data_country": "Portugal",
+      "data_latitude": 40.14424229999999,
+      "data_longitude": -8.861488099999974,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6414",
+      "data_name": "Penacova",
+      "data_country": "Portugal",
+      "data_latitude": 40.25919930000001,
+      "data_longitude": -8.406400099999928,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6416",
+      "data_name": "Escaroupim",
+      "data_country": "Portugal",
+      "data_latitude": 39.0671736,
+      "data_longitude": -8.754903300000024,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6418",
+      "data_name": "Mondim de Basto",
+      "data_country": "Portugal",
+      "data_latitude": 41.3996724,
+      "data_longitude": -7.951915299999996,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6420",
+      "data_name": "Lagoa Santo Andr&#233;",
+      "data_country": "Portugal",
+      "data_latitude": 38.1006722,
+      "data_longitude": -8.78942870000003,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "6585",
+      "data_name": "LODGE PARK",
+      "data_country": "Portugal",
+      "data_latitude": 40.44495795479036,
+      "data_longitude": -8.796735610053247,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }, {
+      "entity_id": "8213",
+      "data_name": "Colina do Sol",
+      "data_country": "Portugal",
+      "data_latitude": 39.54,
+      "data_longitude": -9.08663,
+      "data_image": "",
+      "data_hs_discount": "___",
+      "data_ls_discount": "___"
+    }, {
+      "entity_id": "8333",
+      "data_name": "Os Anjos",
+      "data_country": "Portugal",
+      "data_latitude": 39.0083,
+      "data_longitude": -7.04833,
+      "data_image": "",
+      "data_hs_discount": "0",
+      "data_ls_discount": "0"
+    }]
+  });
+}); // POST
+
+router.post("/login", (req, res) => {
   const user = [{
     "isLogin": true,
     "email": "nuno.s@shareit.dev",
@@ -22721,14 +24395,14 @@ router.post("/login", function (req, res) {
   });
 });
 router.post("/forgotpass", (req, res) => {
-  let isUser = false;
+  let isValidUser = true;
 
-  if (isUser) {
+  if (isValidUser) {
     res.status(200).send({
       messageStatus: "Success",
       messageSuccess: {
-        title: "Invalid Email",
-        text: "Please confirm your password!"
+        title: "Recovery Password ",
+        text: "To recover your password please check your email"
       }
     });
   } else {
@@ -22736,15 +24410,35 @@ router.post("/forgotpass", (req, res) => {
       messageStatus: "Error",
       messageError: {
         title: "Invalid Email",
-        text: "Please confirm your password!"
+        text: "Please try again"
       }
     });
   }
 });
-router.post("/account", function (req, res) {
-  res.status(200).send({
-    message: "user created with success"
-  });
+router.post("/account", (req, res) => {
+  let isValidFields = true;
+
+  if (isValidFields) {
+    res.status(200).send({
+      messageStatus: "Success",
+      messageSuccess: {
+        title: "Account Created with Success",
+        text: "Please check your email box to verification your account"
+      }
+    });
+  } else {
+    res.status(400).send({
+      messageStatus: "Error",
+      messageError: {
+        title: "Failed to Created an Account",
+        text: "Invalid Fields, Please try again!",
+        fields: [{
+          "field": "cardNumber",
+          "error": "invalid field"
+        }]
+      }
+    });
+  }
 });
 app.use(`/.netlify/functions/api`, router);
 module.exports = app;
