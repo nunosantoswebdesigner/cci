@@ -2602,6 +2602,7 @@ router.get("/campsites", (req, res) => {
                     "data_url" : "https://campingcard.shareit.dev/en/",
                     "data_other_disconts" : [
                         {
+                            "id" : "0001",
                             "data_discont_type" : "restaurant",
                             "data_disconts_name" : "Restaurante O Veleiro",
                             "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
@@ -2610,6 +2611,7 @@ router.get("/campsites", (req, res) => {
                             "data_longitude" : -9.071219, 
                         },
                         {
+                            "id" : "0002",
                             "data_discont_type" : "shopping",
                             "data_disconts_name" : "Nazaré Shopping",
                             "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
@@ -2618,6 +2620,7 @@ router.get("/campsites", (req, res) => {
                             "data_longitude" : -9.071218, 
                         },
                         {
+                            "id" : "0003",
                             "data_discont_type" : "sport",
                             "data_disconts_name" : "Estadio Municipal",
                             "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
