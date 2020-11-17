@@ -2153,7 +2153,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.168288500000017, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "20"
+                    "data_ls_discount" : "20",
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6905",
@@ -2163,7 +2219,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.374857379870605, 
                     "data_image" : "", 
                     "data_hs_discount" : "20", 
-                    "data_ls_discount" : "20"
+                    "data_ls_discount" : "20",
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8116",
@@ -2173,7 +2285,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.7783, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "15"
+                    "data_ls_discount" : "15",
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "5898",
@@ -2183,7 +2351,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.786401699999942, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "5924",
@@ -2193,7 +2417,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.25350046157837, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6026",
@@ -2203,7 +2483,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.646616703257223, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6100",
@@ -2213,7 +2549,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.845646700219731, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6232",
@@ -2223,7 +2615,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.380962100000033, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6306",
@@ -2233,7 +2681,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.172485999999935, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6308",
@@ -2243,7 +2747,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.026003500000002, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6310",
@@ -2253,7 +2813,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.826389100000029, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6312",
@@ -2263,7 +2879,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.718523399999981, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6314",
@@ -2273,7 +2945,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.032199999999989, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6316",
@@ -2283,7 +3011,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.444299999999998, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6318",
@@ -2293,7 +3077,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.78303, 
                     "data_image" : "",
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6320",
@@ -2303,7 +3143,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.94626960000005, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6322",
@@ -2313,7 +3209,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.620760300000029, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6324",
@@ -2323,7 +3275,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.80042800000001, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6326",
@@ -2333,7 +3341,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.856259899999941, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6328",
@@ -2343,7 +3407,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.153597699999978, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6330",
@@ -2353,7 +3473,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.720243699999969, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6332",
@@ -2363,7 +3539,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.23602260000007, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6334",
@@ -2373,7 +3605,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.395899999999983, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6336",
@@ -2383,7 +3671,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.513000000000034, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6444",
@@ -2393,7 +3737,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.189771999999948, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6711",
@@ -2403,7 +3803,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.576565800000026, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6739",
@@ -2413,7 +3869,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.582740699999931, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6917",
@@ -2423,7 +3935,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.11350630000004, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "7268",
@@ -2433,7 +4001,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" :-9.209263299999975, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "7806",
@@ -2443,7 +4067,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.120397300000036, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "7928",
@@ -2453,7 +4133,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.30893, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8067",
@@ -2463,7 +4199,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.78667, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8082",
@@ -2473,7 +4265,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.94585, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8084",
@@ -2483,7 +4331,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.27738, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8252",
@@ -2493,7 +4397,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.68647, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8320",
@@ -2503,7 +4463,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.68647, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8337",
@@ -2513,7 +4529,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.82627, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8370",
@@ -2523,7 +4595,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.31776, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8372",
@@ -2533,7 +4661,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.48532, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8647",
@@ -2543,7 +4727,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.73276, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8816",
@@ -2553,7 +4793,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.392, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8860",
@@ -2563,14 +4859,72 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.33709, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8898",
                     "data_name" : "Vale Paraíso Natur Park", 
                     "data_country" : "Portugal", 
                     "data_latitude" : 39.601875, 
-                    "data_longitude" : -9.071212, 
+                    "data_longitude" : -9.071212,
+                    "data_hs_discount" : "10", 
+                    "data_ls_discount" : "20",
                     "data_image" : [
                         {
                             "id" : "0001",
@@ -2593,8 +4947,6 @@ router.get("/campsites", (req, res) => {
                             "alt_text" : "vale-paraiso-naturpark-big-4"
                         },
                     ],
-                    "data_hs_discount" : "10", 
-                    "data_ls_discount" : "20",
                     "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
                     "data_street" : "Estrada Nacional 242 - Km 31",
                     "data_city" : "2450 – 138  Nazaré",
@@ -2639,7 +4991,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.69609, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "9221",
@@ -2649,7 +5057,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.87153, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "9222",
@@ -2659,7 +5123,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" :-8.10359, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "9254",
@@ -2669,7 +5189,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.78303, 
                     "data_image" : "", 
                     "data_hs_discount" : "10", 
-                    "data_ls_discount" : "10"    
+                    "data_ls_discount" : "10"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "7824",
@@ -2679,7 +5255,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" :-7.9159194728081275, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "5"    
+                    "data_ls_discount" : "5"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "7911",
@@ -2689,7 +5321,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.3175, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "5"    
+                    "data_ls_discount" : "5"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8109",
@@ -2699,7 +5387,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -25.5908, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "5"    
+                    "data_ls_discount" : "5"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8122",
@@ -2709,7 +5453,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.34539, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "5"    
+                    "data_ls_discount" : "5"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8233",
@@ -2719,7 +5519,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.54355, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "5"    
+                    "data_ls_discount" : "5"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8582",
@@ -2729,7 +5585,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.96575, 
                     "data_image" : "", 
                     "data_hs_discount" : "5", 
-                    "data_ls_discount" : "5"    
+                    "data_ls_discount" : "5"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "5928",
@@ -2739,7 +5651,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.589978218078613, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "5942",
@@ -2749,7 +5717,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.08663, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6342",
@@ -2759,7 +5783,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -6.953122500000063, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6410",
@@ -2769,7 +5849,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.319124099999954, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6412",
@@ -2779,7 +5915,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.861488099999974, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6414",
@@ -2789,7 +5981,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.406400099999928, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6416",
@@ -2799,7 +6047,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.754903300000024, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6418",
@@ -2809,7 +6113,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.951915299999996, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6420",
@@ -2819,7 +6179,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.78942870000003, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "6585",
@@ -2829,7 +6245,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -8.796735610053247, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8213",
@@ -2839,7 +6311,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -9.08663, 
                     "data_image" : "", 
                     "data_hs_discount" : "___", 
-                    "data_ls_discount" : "___"    
+                    "data_ls_discount" : "___"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 },
                 {
                     "entity_id" : "8333",
@@ -2849,7 +6377,63 @@ router.get("/campsites", (req, res) => {
                     "data_longitude" : -7.04833, 
                     "data_image" : "", 
                     "data_hs_discount" : "0", 
-                    "data_ls_discount" : "0"    
+                    "data_ls_discount" : "0"    ,
+                     "data_image" : [
+                        {
+                            "id" : "0001",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-1"
+                        },
+                        {
+                            "id" : "0002",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-2"
+                        },
+                        {
+                            "id" : "0003",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-3"
+                        },
+                        {
+                            "id" : "0004",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "alt_text" : "vale-paraiso-naturpark-big-4"
+                        },
+                    ],
+                    "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                    "data_street" : "Estrada Nacional 242 - Km 31",
+                    "data_city" : "2450 – 138  Nazaré",
+                    "data_phone" : "00351910288425",
+                    "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_other_disconts" : [
+                        {
+                            "id" : "0001",
+                            "data_discont_type" : "restaurant",
+                            "data_disconts_name" : "Restaurante O Veleiro",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
+                            "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
+                        },
+                        {
+                            "id" : "0002",
+                            "data_discont_type" : "shopping",
+                            "data_disconts_name" : "Nazaré Shopping",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
+                            "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
+                        },
+                        {
+                            "id" : "0003",
+                            "data_discont_type" : "sport",
+                            "data_disconts_name" : "Estadio Municipal",
+                            "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
+                            "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
+                        }
+                    ]  
                 }
         ]
     });
