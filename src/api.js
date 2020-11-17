@@ -2571,7 +2571,11 @@ router.get("/campsites", (req, res) => {
                     "data_country" : "Portugal", 
                     "data_latitude" : 39.601875, 
                     "data_longitude" : -9.071212, 
-                    "data_image" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a9fd7300f4ced4198df275e235ec584b/vale-paraiso-naturpark-big.jpg", 
+                    "data_image" : [
+                        "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a9fd7300f4ced4198df275e235ec584b/vale-paraiso-naturpark-big.jpg", 
+                        "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a9fd7300f4ced4198df275e235ec584b/vale-paraiso-naturpark-big.jpg", 
+                        "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a9fd7300f4ced4198df275e235ec584b/vale-paraiso-naturpark-big.jpg"
+                    ],
                     "data_hs_discount" : "10", 
                     "data_ls_discount" : "20",
                     "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
@@ -2585,18 +2589,24 @@ router.get("/campsites", (req, res) => {
                             "data_disconts_name" : "Restaurante O Veleiro",
                             "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/a50654a1ac67654775d58d0438d6e575/map-restaurant.svg",
                             "data_discont_discont" : "15",
+                            "data_latitude" : 39.601879, 
+                            "data_longitude" : -9.071219, 
                         },
                         {
                             "data_discont_type" : "shopping",
                             "data_disconts_name" : "Nazaré Shopping",
                             "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/72a689d289adb6a3fa1a00079092f3e9/map-shoppping.svg",
                             "data_discont_discont" : "10",
+                            "data_latitude" : 39.601878, 
+                            "data_longitude" : -9.071218, 
                         },
                         {
                             "data_discont_type" : "sport",
                             "data_disconts_name" : "Estadio Municipal",
                             "data_disconts_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8f304b71119fe7b58ff83df9568c8773/map-sports.svg",
                             "data_discont_discont" : "5",
+                            "data_latitude" : 39.601876, 
+                            "data_longitude" : -9.071216, 
                         }
                     ]  
 
