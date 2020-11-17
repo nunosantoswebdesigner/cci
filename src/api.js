@@ -186,7 +186,7 @@ router.get("/global", (req, res) => {
                 }
             ]
           })
-    } else if (lang ===  'FR') {
+    } else if (lang === 'FR') {
         res.json({
             "Translates" : {
                 "OnboardScreen" : {
@@ -356,7 +356,7 @@ router.get("/global", (req, res) => {
                 }
             ]
           })
-    } else if (lang ===  'DE') {
+    } else if (lang === 'DE') {
         res.json({
             "Translates" : {
                 "OnboardScreen" : {
@@ -526,7 +526,7 @@ router.get("/global", (req, res) => {
                 }
             ]
           })
-    } else if (lang ===  'IT') {
+    } else if (lang === 'IT') {
         res.json({
             "Translates" : {
                 "OnboardScreen" : {
@@ -696,7 +696,7 @@ router.get("/global", (req, res) => {
                 }
             ]
         })
-    } else if (lang ===  'ES') {
+    } else if (lang === 'ES') {
         res.json({
             "Translates" : {
                 "OnboardScreen" : {
@@ -866,7 +866,7 @@ router.get("/global", (req, res) => {
                 }
             ]
         })
-    } else if (lang ===  'NL') {
+    } else if (lang === 'NL') {
         res.json({
             "Translates" : {
                 "OnboardScreen" : {
@@ -1036,7 +1036,7 @@ router.get("/global", (req, res) => {
                 }
             ]
         })
-    } else if (lang ===  'SK') {
+    } else if (lang === 'SK') {
         res.json({
             "Translates" : {
                 "OnboardScreen" : {
@@ -4797,7 +4797,7 @@ router.get("/campsites", (req, res) => {
                      "data_image" : [
                         {
                             "id" : "0001",
-                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
                             "alt_text" : "vale-paraiso-naturpark-big-1"
                         },
                         {
@@ -4812,7 +4812,7 @@ router.get("/campsites", (req, res) => {
                         },
                         {
                             "id" : "0004",
-                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
                             "alt_text" : "vale-paraiso-naturpark-big-4"
                         },
                     ],
@@ -4863,12 +4863,12 @@ router.get("/campsites", (req, res) => {
                      "data_image" : [
                         {
                             "id" : "0001",
-                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
                             "alt_text" : "vale-paraiso-naturpark-big-1"
                         },
                         {
                             "id" : "0002",
-                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
                             "alt_text" : "vale-paraiso-naturpark-big-2"
                         },
                         {
@@ -4995,7 +4995,7 @@ router.get("/campsites", (req, res) => {
                      "data_image" : [
                         {
                             "id" : "0001",
-                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
                             "alt_text" : "vale-paraiso-naturpark-big-1"
                         },
                         {
@@ -5005,7 +5005,7 @@ router.get("/campsites", (req, res) => {
                         },
                         {
                             "id" : "0003",
-                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                            "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
                             "alt_text" : "vale-paraiso-naturpark-big-3"
                         },
                         {
