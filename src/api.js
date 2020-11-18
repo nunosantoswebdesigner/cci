@@ -6310,8 +6310,8 @@ router.get("/campsites", (req, res) => {
                     "data_latitude" : 39.54, 
                     "data_longitude" : -9.08663, 
                     "data_image" : "", 
-                    "data_hs_discount" : "___", 
-                    "data_ls_discount" : "___"    ,
+                    "data_hs_discount" : "10", 
+                    "data_ls_discount" : "10"    ,
                      "data_image" : [
                         {
                             "id" : "0001",
