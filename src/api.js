@@ -99,7 +99,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Clear All",
                     "Apply" : "Apply",
                     "Results" : "Results",
-                    "Map" : "Map",
                     "Book_now" : "Book now",
                     "Bank_insurance" : "Bank & Insurance",
                     "Bars_restaurants" : "Bars & Restaurants",
@@ -113,6 +112,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Select All"
                 },
                 "MapDetail" : {
+                    "Map" : "Map",
                     "Book_now" : "Book now",
                     "Other_Disconts" : "Other Disconts"
                 },
@@ -269,7 +269,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Effacer tout",
                     "Apply" : "Appliquer",
                     "Results" : "Résultats",
-                    "Map" : "Carte",
                     "Book_now" : "Réservez maintenant",
                     "Bank_insurance" : "Banque & assurance",
                     "Bars_restaurants" : "Bars & Restaurants",
@@ -283,6 +282,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Sélectionner tout"
                 },
                 "MapDetail" : {
+                    "Map" : "Carte",
                     "Book_now" : "Réservez maintenant",
                     "Other_Disconts" : "Other Disconts"
                 },
@@ -439,7 +439,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Alles löschen",
                     "Apply" : "Anwenden",
                     "Results" : "Ergebnisse",
-                    "Map" : "Karte",
                     "Book_now" : "Buchen Sie jetzt",
                     "Bank_insurance" : "Bank & Versicherung",
                     "Bars_restaurants" : "Bars & Restaurants",
@@ -453,6 +452,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Wählen Sie Alle"
                 },
                 "MapDetail" : {
+                    "Map" : "Karte",
                     "Book_now" : "Buchen Sie jetzt",
                     "Other_Disconts" : "Andere Disconts"
                 },
@@ -609,7 +609,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Cancella tutto",
                     "Apply" : "Applicare",
                     "Results" : "Risultati",
-                    "Map" : "Carta geografica",
                     "Book_now" : "Prenota ora",
                     "Bank_insurance" : "Banca & Assicurazioni",
                     "Bars_restaurants" : "Bar & Ristoranti",
@@ -623,6 +622,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Seleziona tutto"
                 },
                 "MapDetail" : {
+                    "Map" : "Carta geografica",
                     "Book_now" : "Prenota ora",
                     "Other_Disconts" : "Altri disagi"
                 },
@@ -779,7 +779,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Limpiar todo",
                     "Apply" : "Aplicar",
                     "Results" : "Resultados",
-                    "Map" : "Mapa",
                     "Book_now" : "Reservar ahora",
                     "Bank_insurance" : "Banca y Seguros",
                     "Bars_restaurants" : "Bares y restaurantes",
@@ -793,6 +792,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Seleccionar todo"
                 },
                 "MapDetail" : {
+                    "Map" : "Mapa",
                     "Book_now" : "Reservar ahora",
                     "Other_Disconts" : "Otros descontentos"
                 },
@@ -949,7 +949,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Wis alles",
                     "Apply" : "Van toepassing zijn",
                     "Results" : "Resultaten",
-                    "Map" : "Kaart",
                     "Book_now" : "Boek nu",
                     "Bank_insurance" : "Bank & Verzekering",
                     "Bars_restaurants" : "Bars & Restaurants",
@@ -963,6 +962,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Selecteer alles"
                 },
                 "MapDetail" : {
+                    "Map" : "Kaart",
                     "Book_now" : "Boek nu",
                     "Other_Disconts" : "Andere disconts"
                 },
@@ -1119,7 +1119,6 @@ router.get("/global", (req, res) => {
                     "Clear_all" : "Zmazať všetko",
                     "Apply" : "Podať žiadosť",
                     "Results" : "Výsledky",
-                    "Map" : "Mapa",
                     "Book_now" : "Rezervovať",
                     "Bank_insurance" : "Banka a poistenie",
                     "Bars_restaurants" : "Bary a reštaurácie",
@@ -1133,6 +1132,7 @@ router.get("/global", (req, res) => {
                     "Select_all" : "Vybrať všetko"
                 },
                 "MapDetail" : {
+                    "Map" : "Mapa",
                     "Book_now" : "Rezervovať",
                     "Other_Disconts" : "Iné diskotéky"
                 },
