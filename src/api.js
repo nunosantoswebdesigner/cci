@@ -2385,7 +2385,7 @@ router.get("/campsites", (req, res) => {
                 "data_country" : "Portugal", 
                 "data_latitude" : 39.601875, 
                 "data_longitude" : -9.071212,
-                "data_hs_discount" : "10", 
+                "data_hs_discount" : "35", 
                 "data_ls_discount" : "20",
                 "data_image" : [
                     {
@@ -2499,12 +2499,12 @@ router.get("/campsites", (req, res) => {
             {
                 "entity_id" : "8950",
                 "data_name" : "Quinta Chave Grande", 
-                "data_country" : "Portugal", 
-                "data_latitude" : 40.8227, 
-                "data_longitude" : -7.69609, 
+                "data_country" : "Espanha",
+                "data_latitude" : 37.439974, 
+                "data_longitude" : -3.276112, 
                 "data_image" : "", 
-                "data_hs_discount" : "10", 
-                "data_ls_discount" : "10"    ,
+                "data_hs_discount" : "15", 
+                "data_ls_discount" : "10",
                     "data_image" : [
                     {
                         "id" : "0001",
