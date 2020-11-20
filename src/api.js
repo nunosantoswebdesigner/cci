@@ -2266,6 +2266,43 @@ router.get("/campsites", (req, res) => {
                 "data_country" : "Espanha",
                 "data_latitude" : 37.439974, 
                 "data_longitude" : -3.276112, 
+                "data_discount" : "5", 
+                "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                "data_street" : "Estrada Nacional 242 - Km 31",
+                "data_city" : "2450 – 138  Nazaré",
+                "data_phone" : "00351910288425",
+                "data_url" : "https://campingcard.shareit.dev/en/",
+                "data_image" : [
+                    {
+                        "id" : "0013",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-1"
+                    },
+                    {
+                        "id" : "0014",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-2"
+                    },
+                    {
+                        "id" : "0015",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-3"
+                    },
+                    {
+                        "id" : "0016",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-4"
+                    },
+                ],
+            },
+            {
+                "entity_id" : "8651",
+                "data_name" : "Quinta Espanha", 
+                "data_type" : "campsite",
+                "data_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/e05ff6a94a691203c1d47875b48b006a/map-campsites.png",
+                "data_country" : "Espanha",
+                "data_latitude" : 37.4399743432432, 
+                "data_longitude" : -3.276112234234, 
                 "data_discount" : "55", 
                 "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
                 "data_street" : "Estrada Nacional 242 - Km 31",
@@ -2294,6 +2331,43 @@ router.get("/campsites", (req, res) => {
                         "alt_text" : "vale-paraiso-naturpark-big-4"
                     },
                 ],
+            },
+            {
+                "entity_id" : "8154",
+                "data_name" : "Espanha Shopping",
+                "data_type" : "clothes",
+                "data_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/8b459e193cddebe02bf0caa7ce4d117a/map-clothes.svg",
+                "data_country" : "Espanha",
+                "data_latitude" : 39.9560234234, 
+                "data_longitude" : -8.838523434, 
+                "data_discount" : "40", 
+                "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                "data_street" : "Estrada Nacional 242 - Km 31",
+                "data_city" : "2450 – 138  Nazaré",
+                "data_phone" : "00351910288425",
+                "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_image" : [
+                    {
+                        "id" : "0013",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-1"
+                    },
+                    {
+                        "id" : "0014",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-2"
+                    },
+                    {
+                        "id" : "0015",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-3"
+                    },
+                    {
+                        "id" : "0016",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-4"
+                    },
+                ]
             },
             {
                 "entity_id" : "8923",
@@ -2331,6 +2405,43 @@ router.get("/campsites", (req, res) => {
                         "alt_text" : "vale-paraiso-naturpark-big-4"
                     },
                 ],
+            },
+            {
+                "entity_id" : "8874",
+                "data_name" : "Banco Millenio França", 
+                "data_type" : "bank",
+                "data_icon" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/531c258351dae7bcd1b672c37a6db174/map-money.svg",
+                "data_country" : "França",
+                "data_latitude" : 39.614465466, 
+                "data_longitude" : -8.5473456456,
+                "data_discount" : "10", 
+                "data_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae velit id erat convallis maximus. Praesent nibh quam, laoreet quis arcu sed, commodo molestie tellus. Ut massa lacus, varius eget aliquet non, tincidunt eu nibh. Maecenas velit velit, facilisis id nulla et.",
+                "data_street" : "Estrada Nacional 242 - Km 31",
+                "data_city" : "2450 – 138  Nazaré",
+                "data_phone" : "00351910288425",
+                "data_url" : "https://campingcard.shareit.dev/en/",
+                    "data_image" : [
+                    {
+                        "id" : "0013",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/0c626515dd572657c3431d01db4c1699/vale-paraiso-naturpark-big-4.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-1"
+                    },
+                    {
+                        "id" : "0014",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/22e62f2a04ba41d9f3e89120b55529f4/vale-paraiso-naturpark-big-3.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-2"
+                    },
+                    {
+                        "id" : "0015",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/2339af0a3ecbbf7ff33b9b41799c6192/vale-paraiso-naturpark-big-1.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-3"
+                    },
+                    {
+                        "id" : "0016",
+                        "url" : "https://trello-attachments.s3.amazonaws.com/5e173df63eabb48375ed2fad/5fa53ef60180bc8340a6abde/b173cd2f9d0b3de3c34152040b65af56/vale-paraiso-naturpark-big-2.jpg",
+                        "alt_text" : "vale-paraiso-naturpark-big-4"
+                    },
+                ]
             },
             {
                 "entity_id" : "8951",
